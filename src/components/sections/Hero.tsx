@@ -21,8 +21,8 @@ export default function Hero() {
         className="object-cover"
         priority
       />
-      {/* Dark gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
+      {/* Dark gradient overlay — heavier to keep text readable */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/50" />
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 pb-32">

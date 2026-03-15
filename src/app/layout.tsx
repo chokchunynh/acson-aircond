@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: "Authorised installer Acson. Pasang, servis & sewa aircond Acson di KL, Selangor & seluruh Malaysia.",
     images: ["/og-image.png"],
   },
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: [{ url: "/favicon.svg" }, { url: "/favicon.png", type: "image/png" }] },
 };
 
 export default function RootLayout({
