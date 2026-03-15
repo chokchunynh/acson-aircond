@@ -197,6 +197,28 @@ body {
 }
 
 /* ============================================
+   WHATSAPP CTA — Official green #25D366
+   ============================================ */
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #25D366;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition: filter 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+.btn-whatsapp:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.3);
+}
+
+/* ============================================
    WHATSAPP PULSE — Floating button only
    ============================================ */
 @keyframes whatsapp-pulse {

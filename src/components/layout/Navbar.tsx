@@ -49,7 +49,7 @@ export default function Navbar() {
                   </a>
                 )
               ))}
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary py-2.5 px-5 text-sm">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-whatsapp py-2.5 px-5 text-sm">
                 WhatsApp
               </a>
             </div>
@@ -82,7 +82,7 @@ export default function Navbar() {
                 </a>
               )
             ))}
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary w-full mt-4 text-center">
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-whatsapp w-full mt-4 text-center">
               WhatsApp Kami
             </a>
           </div>
