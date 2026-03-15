@@ -64,8 +64,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar — brand red */}
-      <div className="bg-[var(--color-brand)] py-3">
+      {/* Bottom bar — dark gradient */}
+      <div className="bg-gradient-to-r from-[#1A0A0E] via-[#7A1020] to-[#CC1B2B] py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-white/80 text-xs">&copy; 2026 AirCond Malaysia. All rights reserved.</p>
           <p className="text-white/60 text-xs">Authorised Installer of AirCond Malaysia</p>
