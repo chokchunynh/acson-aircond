@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,opacity,transform] duration-300 ${
         scrolled
           ? "bg-white border-b-[3px] border-[var(--color-brand)]"
           : "bg-transparent"
@@ -56,9 +56,9 @@ export default function Navbar() {
 
             <button onClick={() => setMobileOpen(!mobileOpen)}
               className="md:hidden w-10 h-10 flex flex-col items-center justify-center gap-1.5" aria-label="Toggle menu">
-              <span className={`block w-6 h-0.5 transition-all duration-300 ${scrolled ? "bg-[var(--color-text-dark)]" : "bg-white"} ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
-              <span className={`block w-6 h-0.5 transition-all duration-300 ${scrolled ? "bg-[var(--color-text-dark)]" : "bg-white"} ${mobileOpen ? "opacity-0" : ""}`} />
-              <span className={`block w-6 h-0.5 transition-all duration-300 ${scrolled ? "bg-[var(--color-text-dark)]" : "bg-white"} ${mobileOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+              <span className={`block w-6 h-0.5 transition-[background-color,opacity,transform] duration-300 ${scrolled ? "bg-[var(--color-text-dark)]" : "bg-white"} ${mobileOpen ? "rotate-45 translate-y-2" : ""}`} />
+              <span className={`block w-6 h-0.5 transition-[background-color,opacity,transform] duration-300 ${scrolled ? "bg-[var(--color-text-dark)]" : "bg-white"} ${mobileOpen ? "opacity-0" : ""}`} />
+              <span className={`block w-6 h-0.5 transition-[background-color,opacity,transform] duration-300 ${scrolled ? "bg-[var(--color-text-dark)]" : "bg-white"} ${mobileOpen ? "-rotate-45 -translate-y-2" : ""}`} />
             </button>
           </div>
         </div>

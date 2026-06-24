@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { SprayCan, Sparkles, ThermometerSnowflake, Wind, MapPin } from "lucide-react";
 
@@ -8,12 +9,14 @@ const RESULTS = [
   {
     title: "Chemical Wash — Wall Mounted 1.5HP",
     location: "Puchong, Selangor",
+    image: "/images/before-after-chemical-wash.jpg",
     before: { desc: "Coil hitam, tersumbat habuk tebal 4 tahun. Angin lemah, aircond tak sejuk.", icon: <SprayCan className="w-5 h-5" /> },
     after: { desc: "Coil bersih macam baru, angin kuat balik. Sejuk maksimum, jimat elektrik.", icon: <Sparkles className="w-5 h-5" /> },
   },
   {
     title: "Full Service + Gas Top-Up — 2HP",
     location: "Shah Alam, Selangor",
+    image: "/images/services/chemical-wash-in-progress.jpg",
     before: { desc: "Aircond bocor air, bising teruk. Gas dah habis, compressor overheat.", icon: <ThermometerSnowflake className="w-5 h-5" /> },
     after: { desc: "Takde bocor, senyap, sejuk gila. Gas R32 penuh, perform macam baru.", icon: <Wind className="w-5 h-5" /> },
   },
@@ -25,11 +28,19 @@ function ToggleCard({ result, index }: { result: typeof RESULTS[number]; index: 
 
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-      {/* Header */}
-      <div className="px-6 py-4 bg-[var(--color-gray-50)] flex items-center justify-between">
-        <div>
-          <h3 className="font-heading text-lg text-[var(--color-text-dark)]">{result.title}</h3>
-          <p className="flex items-center gap-1 text-xs text-[var(--color-text-muted)]">
+      {/* Image */}
+      <div className="relative w-full h-48 sm:h-56">
+        <Image
+          src={result.image}
+          alt={result.title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 50vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+        <div className="absolute bottom-3 left-4 right-4">
+          <h3 className="font-heading text-lg text-white">{result.title}</h3>
+          <p className="flex items-center gap-1 text-xs text-white/80">
             <MapPin className="w-3 h-3" /> {result.location}
           </p>
         </div>

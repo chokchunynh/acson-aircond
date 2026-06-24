@@ -9,6 +9,8 @@ import RentVsBuy from "@/components/sections/RentVsBuy";
 import ServicesGrid from "@/components/sections/ServicesGrid";
 import Comparison from "@/components/sections/Comparison";
 import BeforeAfter from "@/components/sections/BeforeAfter";
+import Gallery from "@/components/sections/Gallery";
+import TeamSection from "@/components/sections/TeamSection";
 import SocialProof from "@/components/sections/SocialProof";
 import CoverageArea from "@/components/sections/CoverageArea";
 import FAQ from "@/components/sections/FAQ";
@@ -26,6 +28,8 @@ export default function Home() {
         <ServicesGrid />
         <Comparison />
         <BeforeAfter />
+        <Gallery />
+        <TeamSection />
         <SocialProof />
         <CoverageArea />
         <FAQ />

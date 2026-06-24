@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { Smartphone, Wrench, Wallet } from "lucide-react";
 
@@ -9,18 +10,21 @@ const STEPS = [
     icon: <Smartphone className="w-6 h-6" />,
     title: "Pilih Model",
     description: "WhatsApp kami dan beritahu saiz bilik + bajet anda. Kami cadangkan model Acson terbaik untuk anda.",
+    image: "/images/services/technician-explaining-homeowner.jpg",
   },
   {
     num: "2",
     icon: <Wrench className="w-6 h-6" />,
     title: "Kami Pasang",
     description: "Technician datang 1-3 hari selepas confirm. Pemasangan profesional siap dalam 2-4 jam.",
+    image: "/images/services/technician-installing-aircond.jpg",
   },
   {
     num: "3",
     icon: <Wallet className="w-6 h-6" />,
     title: "Bayar Bulanan",
     description: "Dari RM69/bulan, selepas habis tempoh jadi milik anda. Takde hidden charges.",
+    image: "/images/happy-family-aircond.jpg",
   },
 ];
 
@@ -52,17 +56,30 @@ export default function HowItWorks() {
                   <div className="hidden md:block absolute top-7 left-[calc(50%+28px)] right-[calc(-50%+28px)] h-[2px] bg-[var(--color-border)]" />
                 )}
 
-                {/* Icon + Content */}
-                <div className="bg-white rounded-xl p-6 shadow-md border-b-4 border-[var(--color-brand)]">
-                  <div className="w-12 h-12 bg-[var(--color-brand)]/10 rounded-xl flex items-center justify-center text-[var(--color-brand)] mx-auto mb-4">
-                    {step.icon}
+                {/* Card with image */}
+                <div className="bg-white rounded-xl overflow-hidden shadow-md border-b-4 border-[var(--color-brand)]">
+                  {/* Step image */}
+                  <div className="relative h-36 w-full">
+                    <Image
+                      src={step.image}
+                      alt={step.title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                    />
                   </div>
-                  <h3 className="font-heading text-xl text-[var(--color-text-dark)] mb-2">
-                    {step.title}
-                  </h3>
-                  <p className="text-sm text-[var(--color-text-body)] leading-relaxed">
-                    {step.description}
-                  </p>
+
+                  <div className="p-6">
+                    <div className="w-12 h-12 bg-[var(--color-brand)]/10 rounded-xl flex items-center justify-center text-[var(--color-brand)] mx-auto mb-4">
+                      {step.icon}
+                    </div>
+                    <h3 className="font-heading text-xl text-[var(--color-text-dark)] mb-2">
+                      {step.title}
+                    </h3>
+                    <p className="text-sm text-[var(--color-text-body)] leading-relaxed">
+                      {step.description}
+                    </p>
+                  </div>
                 </div>
               </div>
             </ScrollReveal>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { WHATSAPP_URL } from "@/lib/constants";
 
@@ -9,6 +10,10 @@ export default function FinalCTA() {
       {/* Rich gradient background — dark-to-red with depth */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#1A0A0E] via-[#7A1020] to-[#CC1B2B]" />
 
+      {/* Background image */}
+      <div className="absolute inset-0 opacity-10">
+        <Image src="/images/happy-family-aircond.jpg" alt="Keluarga gembira menikmati kesejukan aircond Acson di rumah" fill className="object-cover" sizes="100vw" />
+      </div>
       {/* Radial glow — top center */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-[#E63946]/30 rounded-full blur-[150px]" />
 

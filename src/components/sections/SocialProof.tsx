@@ -41,7 +41,7 @@ export default function SocialProof() {
                     {t.quote}
                   </p>
                   <div className="flex items-center gap-3">
-                    <img src={t.avatar} alt={t.name} className="w-9 h-9 rounded-full object-cover" loading="lazy" />
+                    <div className="w-9 h-9 rounded-full bg-[var(--color-brand)] flex items-center justify-center text-white font-semibold text-xs shrink-0">{t.initials}</div>
                     <div>
                       <p className="text-sm font-semibold text-[var(--color-text-dark)]">{t.name}</p>
                       <p className="text-xs text-[var(--color-text-muted)]">{t.role}</p>

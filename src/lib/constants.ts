@@ -31,10 +31,10 @@ export const NAV_LINKS = [
 // ============================================================
 
 export const PROOF_STATS = [
-  { value: "1,000+", label: "Pemasangan Siap" },
-  { value: "4.8★", label: "Google Rating" },
-  { value: "1-3 Hari", label: "Technician Datang" },
-  { value: "5", label: "Cawangan Malaysia" },
+  { value: "1,000", suffix: "+", label: "Pemasangan Siap" },
+  { value: "4.9", suffix: "/5", label: "Google Rating" },
+  { value: "40", suffix: "+ Tahun", label: "Jenama Malaysia Sejak 1984" },
+  { value: "13", suffix: " Negeri", label: "Liputan Malaysia" },
 ];
 
 // ============================================================
@@ -56,7 +56,7 @@ export const SERVICES: Service[] = [
     description: "Beli unit Acson baru + pemasangan profesional. Semua model tersedia — wall mounted, cassette, ceiling. Harga termasuk bracket, piping, dan wiring standard.",
     price: "Dari RM1,560 (unit + pasang)",
     icon: "wrench",
-    image: "/images/hero/technician-install.png",
+    image: "/images/services/technician-installing-aircond.jpg",
     waMessage: "Hi, saya nak pasang aircond Acson. Boleh bagi harga?",
   },
   {
@@ -64,7 +64,7 @@ export const SERVICES: Service[] = [
     description: "Servis berkala, chemical wash, gas top-up, dan repair. Aircond sejuk balik, jimat elektrik, tahan lama. Kami pakar Acson — faham setiap model.",
     price: "Servis dari RM80 | Chemical wash dari RM130",
     icon: "spray-can",
-    image: "/images/services/chemical-wash.png",
+    image: "/images/services/chemical-wash-in-progress.jpg",
     waMessage: "Hi, saya nak servis aircond Acson. Boleh bagi harga chemical wash?",
   },
   {
@@ -72,7 +72,7 @@ export const SERVICES: Service[] = [
     description: "Tak perlu bayar penuh. Sewa beli Acson brand new dari RM99/bulan — termasuk unit + pemasangan + warranty 1 tahun. Bayar bulanan, akhirnya aircond tu jadi milik anda.",
     price: "Dari RM99/bulan (24 bulan)",
     icon: "calendar-check",
-    image: "/images/services/happy-family.png",
+    image: "/images/happy-family-aircond.jpg",
     waMessage: "Hi, saya berminat nak sewa beli aircond Acson. Boleh explain plan sewa beli?",
   },
 ];
@@ -107,57 +107,111 @@ export const SERVICE_MODES: { key: ServiceMode; label: string; icon: string }[] 
 
 export const PRODUCTS: ProductCategory[] = [
   {
-    name: "Inverter Wall Mounted",
-    slug: "inverter-wall",
+    name: "Avory Premium (Flagship)",
+    slug: "avory-premium",
     description: {
-      beli: "Beli unit Acson inverter baru + pemasangan profesional. Jimat elektrik sehingga 48%. Model Reino+, Reino, Avory Premium & Viento tersedia.",
-      servis: "Servis berkala untuk aircond Acson inverter anda. Chemical wash, gas top-up, repair — aircond sejuk macam baru.",
-      "sewa-beli": "Sewa beli Acson inverter — bayar bulanan, termasuk unit baru + pemasangan + warranty 1 tahun. Akhirnya jadi milik anda.",
+      beli: "Flagship Acson dengan iSenz+ human detection, Foresto Technology (Filtronz+ + Plusma), dan iTurbo+ rapid cooling 20 minit. 5-Star Energy Rating, jimat sehingga 48% elektrik. Senyap serendah 19 dBA.",
+      servis: "Servis berkala untuk Acson Avory Premium anda. Chemical wash, gas top-up, repair — aircond perform macam baru.",
+      "sewa-beli": "Sewa beli Acson Avory Premium — flagship dengan AI sensor. Bayar bulanan, termasuk unit baru + pemasangan.",
     },
     features: {
-      beli: ["Jimat 48% Elektrik", "5-Star Energy Rating", "WiFi Smart Control", "iClean+ Technology"],
+      beli: ["iSenz+ Human Detection", "Foresto Technology (Plusma + Filtronz+)", "iTurbo+ Rapid Cool 20 Min", "WiFi MyAcson App"],
       servis: ["Chemical Wash", "Gas Top-Up R32", "General Service", "Repair & Troubleshoot"],
       "sewa-beli": ["Unit Baru 100%", "Pasang Percuma", "Warranty 1 Tahun", "Jadi Milik Anda"],
     },
     hpRange: "1.0HP - 2.5HP",
     pricing: {
-      beli: { label: "Unit + Pasang", price: "RM1,560", sub: "Harga bergantung model & HP" },
+      beli: { label: "Unit + Pasang", price: "RM2,130", sub: "1.0HP (A3WMY10APF) | Sehingga RM4,450 (2.5HP)" },
       servis: { label: "Servis dari", price: "RM80", sub: "Chemical wash dari RM130" },
-      "sewa-beli": { label: "Bulanan dari", price: "RM99/bln", sub: "24 bulan | Deposit RM200" },
+      "sewa-beli": { label: "Bulanan dari", price: "RM129/bln", sub: "24 bulan | Deposit RM300" },
     },
-    models: "Avory Premium, Reino+, Reino, Viento",
-    image: "/images/products/reinoplus.png",
+    models: "A3WMY10APF (1.0HP), A3WMY15APF (1.5HP), A3WMY20APF (2.0HP), A3WMY25APF (2.5HP)",
+    image: "/images/products/avory-premium.png",
     waMessage: {
-      beli: "Hi, saya nak beli & pasang Acson Inverter Wall Mounted. Boleh bagi harga?",
-      servis: "Hi, saya nak servis aircond Acson Inverter. Boleh bagi harga?",
-      "sewa-beli": "Hi, saya nak sewa beli Acson Inverter. Boleh explain plan?",
+      beli: "Hi, saya nak beli & pasang Acson Avory Premium. Boleh bagi harga?",
+      servis: "Hi, saya nak servis aircond Acson Avory Premium. Boleh bagi harga?",
+      "sewa-beli": "Hi, saya nak sewa beli Acson Avory Premium. Boleh explain plan?",
     },
   },
   {
-    name: "Non-Inverter Wall Mounted",
-    slug: "non-inverter-wall",
+    name: "Reino+ (Premium Inverter)",
+    slug: "reinoplus",
     description: {
-      beli: "Harga paling mampu milik untuk brand Acson. Model AVO — sesuai untuk bilik jarang digunakan, rumah sewa, atau bajet terhad.",
-      servis: "Servis untuk Acson non-inverter AVO. Bersihkan habuk & kulat, top-up gas, pastikan aircond perform macam baru.",
-      "sewa-beli": "Sewa beli Acson AVO non-inverter dari RM79/bulan. Paling murah — sesuai untuk bajet terhad tapi nak brand Acson.",
+      beli: "Acson Reino+ — 5-Star Energy Rating, iClean+ self-cleaning patented, dan Filtronz+ anti-virus filter (Silver Ion Ag+). Jimat sehingga 47% elektrik. WiFi built-in.",
+      servis: "Servis untuk Acson Reino+. Bersihkan habuk & kulat, top-up gas, pastikan aircond perform macam baru.",
+      "sewa-beli": "Sewa beli Acson Reino+ dari RM109/bulan. Premium inverter dengan self-clean tanpa modal besar.",
     },
     features: {
-      beli: ["Harga Terendah Acson", "Powerful Mode", "R32 Eco-Friendly", "Mudah Diselenggara"],
+      beli: ["5-Star Energy Rating", "iClean+ Patented Self-Clean", "Filtronz+ Anti-Virus (Ag+)", "WiFi MyAcson App"],
+      servis: ["Chemical Wash", "Gas Top-Up R32", "Filter Cleaning", "General Check-Up"],
+      "sewa-beli": ["Unit Baru 100%", "Pasang Percuma", "Warranty 1 Tahun", "Harga Berbaloi"],
+    },
+    hpRange: "1.0HP - 2.5HP",
+    pricing: {
+      beli: { label: "Unit + Pasang", price: "RM1,695", sub: "1.0HP (A3WMY10BF) | Sehingga RM3,670 (2.5HP)" },
+      servis: { label: "Servis dari", price: "RM80", sub: "Chemical wash dari RM130" },
+      "sewa-beli": { label: "Bulanan dari", price: "RM109/bln", sub: "24 bulan | Deposit RM200" },
+    },
+    models: "A3WMY10BF (1.0HP), A3WMY15BF (1.5HP), A3WMY20BF (2.0HP), A3WMY25BF (2.5HP)",
+    image: "/images/products/reinoplus.png",
+    waMessage: {
+      beli: "Hi, saya nak beli & pasang Acson Reino+. Boleh bagi harga?",
+      servis: "Hi, saya nak servis aircond Acson Reino+. Boleh bagi harga?",
+      "sewa-beli": "Hi, saya nak sewa beli Acson Reino+. Boleh explain plan?",
+    },
+  },
+  {
+    name: "Viento (Value Inverter)",
+    slug: "viento",
+    description: {
+      beli: "Acson Viento — entry-point inverter terbaik. Filtronz+ anti-virus, iClean+, WiFi built-in. 3-4 Star Energy Rating. Harga berbaloi untuk kualiti Acson.",
+      servis: "Servis untuk Acson Viento. Chemical wash, gas top-up, repair — aircond perform optimal.",
+      "sewa-beli": "Sewa beli Acson Viento dari RM89/bulan. Inverter quality pada harga mampu milik.",
+    },
+    features: {
+      beli: ["Filtronz+ Anti-Virus Filter", "iClean+ Self-Clean", "WiFi MyAcson App", "R32 Eco-Friendly"],
+      servis: ["Chemical Wash", "Gas Top-Up R32", "Filter Cleaning", "General Check-Up"],
+      "sewa-beli": ["Unit Baru 100%", "Pasang Percuma", "Warranty 1 Tahun", "Harga Mampu Milik"],
+    },
+    hpRange: "1.0HP - 2.5HP",
+    pricing: {
+      beli: { label: "Unit + Pasang", price: "RM1,360", sub: "1.0HP | Sehingga RM3,150 (2.5HP)" },
+      servis: { label: "Servis dari", price: "RM80", sub: "Chemical wash dari RM130" },
+      "sewa-beli": { label: "Bulanan dari", price: "RM89/bln", sub: "24 bulan | Deposit RM200" },
+    },
+    models: "Viento 1.0HP, 1.5HP, 2.0HP, 2.5HP",
+    image: "/images/products/viento.png",
+    waMessage: {
+      beli: "Hi, saya nak beli & pasang Acson Viento. Boleh bagi harga?",
+      servis: "Hi, saya nak servis aircond Acson Viento. Boleh bagi harga?",
+      "sewa-beli": "Hi, saya nak sewa beli Acson Viento. Boleh explain plan?",
+    },
+  },
+  {
+    name: "AVO (Non-Inverter)",
+    slug: "avo-non-inverter",
+    description: {
+      beli: "Harga paling mampu milik Acson. Model AVO dengan Filtronz+ anti-virus dan Rapid Cool 35% lebih pantas. Sesuai untuk bilik jarang digunakan atau bajet terhad.",
+      servis: "Servis untuk Acson AVO. Bersihkan habuk & kulat, top-up gas, pastikan aircond perform macam baru.",
+      "sewa-beli": "Sewa beli Acson AVO dari RM79/bulan. Paling murah — brand Acson pada harga terendah.",
+    },
+    features: {
+      beli: ["Harga Terendah Acson", "Filtronz+ Anti-Virus", "Rapid Cool 35% Lebih Pantas", "R32 Eco-Friendly"],
       servis: ["Chemical Wash", "Gas Top-Up R32", "Filter Cleaning", "General Check-Up"],
       "sewa-beli": ["Unit Baru 100%", "Pasang Percuma", "Warranty 1 Tahun", "Harga Paling Rendah"],
     },
     hpRange: "1.0HP - 2.5HP",
     pricing: {
-      beli: { label: "Unit + Pasang", price: "RM1,440", sub: "Harga terendah Acson" },
+      beli: { label: "Unit + Pasang", price: "RM1,240", sub: "1.0HP (A3WM25N) | Sehingga RM2,890 (2.5HP)" },
       servis: { label: "Servis dari", price: "RM80", sub: "Chemical wash dari RM130" },
       "sewa-beli": { label: "Bulanan dari", price: "RM79/bln", sub: "36 bulan | Deposit RM200" },
     },
-    models: "AVO Series",
+    models: "A3WM25N (1.0HP), A3WM20N (2.0HP), A3WM30N (2.5HP)",
     image: "/images/products/avo-non-inverter.png",
     waMessage: {
-      beli: "Hi, saya nak beli & pasang Acson AVO Non-Inverter. Boleh bagi harga?",
-      servis: "Hi, saya nak servis aircond Acson Non-Inverter. Boleh bagi harga?",
-      "sewa-beli": "Hi, saya nak sewa beli Acson Non-Inverter. Boleh explain plan?",
+      beli: "Hi, saya nak beli & pasang Acson AVO. Boleh bagi harga?",
+      servis: "Hi, saya nak servis aircond Acson AVO. Boleh bagi harga?",
+      "sewa-beli": "Hi, saya nak sewa beli Acson AVO. Boleh explain plan?",
     },
   },
   {
@@ -180,7 +234,7 @@ export const PRODUCTS: ProductCategory[] = [
       "sewa-beli": { label: "Bulanan dari", price: "RM239/bln", sub: "24 bulan | Deposit RM500" },
     },
     models: "Ceiling Cassette Series",
-    image: "/images/products/avory-premium.png",
+    image: "/images/products/cassette-unit.jpg",
     waMessage: {
       beli: "Hi, saya nak beli & pasang Acson Cassette untuk office/kedai. Boleh bagi harga?",
       servis: "Hi, saya nak servis Acson Cassette unit. Boleh bagi harga?",
@@ -216,18 +270,21 @@ export interface Testimonial {
   name: string;
   role: string;
   quote: string;
-  avatar: string;
+  initials: string;
 }
 
 export const TESTIMONIALS: Testimonial[] = [
-  { name: "Ahmad R.", role: "Pemilik Rumah, Puchong", quote: "WhatsApp tanya harga Acson Reino+ 1.5HP, petang dah confirm. Esok technician datang pasang. Memang laju. Aircond sejuk, harga pun berpatutan.", avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
-  { name: "Faizal M.", role: "Landlord, Shah Alam", quote: "Saya sewa beli Acson Viento 2HP untuk rumah sewa — RM189 sebulan je. Tak payah keluar duit besar. Tenant happy, saya pun happy.", avatar: "https://randomuser.me/api/portraits/men/45.jpg" },
-  { name: "Siti A.", role: "Ibu Rumah, Ampang", quote: "Dulu pakai aircond lama, bil elektrik RM400 sebulan. Tukar Acson inverter Reino+, turun jadi RM240. Jimat gila. 5-star energy rating memang berkesan.", avatar: "https://randomuser.me/api/portraits/women/28.jpg" },
-  { name: "Jason T.", role: "Condo Owner, KLCC", quote: "Chemical wash servis memang bagus. Aircond dah 4 tahun tak servis — lepas chemical wash, sejuk macam baru. RM150 je.", avatar: "https://randomuser.me/api/portraits/men/22.jpg" },
-  { name: "Nurul H.", role: "Pemilik Apartment, Cyberjaya", quote: "Compare harga 5 kedai sebelum jumpa AirCond Malaysia. Harga paling transparent, takde hidden charges. Siap ada sewa beli. Acson Avory Premium cantik design dia.", avatar: "https://randomuser.me/api/portraits/women/44.jpg" },
-  { name: "Kevin L.", role: "Business Owner, PJ", quote: "Pasang 3 unit Acson Avory Premium untuk office baru. Design sleek dan 3D airflow memang best. Technician siap dalam satu hari.", avatar: "https://randomuser.me/api/portraits/men/55.jpg" },
-  { name: "Rizal K.", role: "Pemilik Rumah, Seremban", quote: "First time dengar boleh SEWA BELI aircond Acson. Ingat tipu. Tapi betul — RM99 sebulan, siap pasang semua. Lepas habis bayar, jadi milik saya.", avatar: "https://randomuser.me/api/portraits/men/36.jpg" },
-  { name: "Aminah Z.", role: "Office Manager, Putrajaya", quote: "Servis aircond office 8 unit Acson sekaligus. Harga bulk discount, siap dalam setengah hari. Professional gila team ni.", avatar: "https://randomuser.me/api/portraits/women/52.jpg" },
+  { name: "Ahmad R.", role: "Pemilik Rumah, Puchong", quote: "WhatsApp tanya harga Acson Reino+ 1.5HP, petang dah confirm. Esok technician datang pasang. Memang laju. Aircond sejuk, harga pun berpatutan.", initials: "AR" },
+  { name: "Faizal M.", role: "Landlord, Shah Alam", quote: "Saya sewa beli Acson Viento 2HP untuk rumah sewa — RM189 sebulan je. Tak payah keluar duit besar. Tenant happy, saya pun happy.", initials: "FM" },
+  { name: "Siti A.", role: "Ibu Rumah, Ampang", quote: "Dulu pakai aircond lama, bil elektrik RM400 sebulan. Tukar Acson inverter Reino+, turun jadi RM240. Jimat gila. 5-star energy rating memang berkesan.", initials: "SA" },
+  { name: "Jason T.", role: "Condo Owner, KLCC", quote: "Chemical wash servis memang bagus. Aircond dah 4 tahun tak servis — lepas chemical wash, sejuk macam baru. RM150 je.", initials: "JT" },
+  { name: "Nurul H.", role: "Pemilik Apartment, Cyberjaya", quote: "Compare harga 5 kedai sebelum jumpa AirCond Malaysia. Harga paling transparent, takde hidden charges. Siap ada sewa beli. Acson Avory Premium cantik design dia.", initials: "NH" },
+  { name: "Kevin L.", role: "Business Owner, PJ", quote: "Pasang 3 unit Acson Avory Premium untuk office baru. Design sleek dan 3D airflow memang best. Technician siap dalam satu hari.", initials: "KL" },
+  { name: "Rizal K.", role: "Pemilik Rumah, Seremban", quote: "First time dengar boleh SEWA BELI aircond Acson. Ingat tipu. Tapi betul — RM99 sebulan, siap pasang semua. Lepas habis bayar, jadi milik saya.", initials: "RK" },
+  { name: "Aminah Z.", role: "Office Manager, Putrajaya", quote: "Servis aircond office 8 unit Acson sekaligus. Harga bulk discount, siap dalam setengah hari. Professional gila team ni.", initials: "AZ" },
+  { name: "Daniel W.", role: "Pemilik Rumah, Bangsar", quote: "Pasang Acson Avory Premium 2HP — design cantik, senyap gila. WiFi control memang convenient. Balik kerja ON aircond dari phone.", initials: "DW" },
+  { name: "Hafiz S.", role: "Kontraktor, Klang", quote: "Dah refer 5 client ke AirCond Malaysia. Semua puas hati. Harga memang paling competitive untuk Acson. Tak pernah ada complaint.", initials: "HS" },
+  { name: "Mei Ling C.", role: "Ibu Rumah, Subang Jaya", quote: "Chemical wash 3 unit sekaligus, RM350 semua. Lepas servis, bil elektrik turun RM80 sebulan. Memang berbaloi.", initials: "MC" },
 ];
 
 // ============================================================
@@ -242,7 +299,7 @@ export interface FAQItem {
 export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "Berapa harga pasang aircond Acson?",
-    answer: "Harga bermula dari RM1,560 untuk unit Acson 1HP + pemasangan standard. Harga termasuk bracket, piping (10ft), dan wiring. Kalau piping lebih panjang, kami bagitahu harga extra sebelum start kerja — takde surprise charges.",
+    answer: "AVO non-inverter dari RM1,240 (1.0HP). Viento inverter dari RM1,360. Reino+ dari RM1,695. Avory Premium dari RM2,130. Harga termasuk bracket, piping (10ft), dan wiring. Kalau piping lebih panjang, kami bagitahu harga extra sebelum start kerja — takde surprise charges.",
   },
   {
     question: "Macam mana sewa beli aircond Acson berfungsi?",
