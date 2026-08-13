@@ -1,21 +1,22 @@
+# Raw artwork sources — optimized versions live in public/
+brand_assets/
+
+# One-shot insert/seed scripts written by agents (Cyclops/Hanabi)
+.blog-scripts/
+.cyclops-*/
+.hanabi-*/
+
+# Local screenshots produced during development
+temporary screenshots/
+
 # dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-
-# testing
-/coverage
 
 # next.js
-/.next/
+.next/
 /out/
-
-# production
 /build
 
 # misc
@@ -32,6 +33,7 @@ yarn-error.log*
 .env*
 
 # vercel
+.vercel/
 .vercel
 
 # typescript

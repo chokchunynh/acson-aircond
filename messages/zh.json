@@ -1,0 +1,547 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "Acson 型号",
+    "services": "服务",
+    "calculator": "分期租购价格",
+    "locations": "服务地区",
+    "blog": "博客",
+    "whatsappCta": "WhatsApp 联系",
+    "logoAlt": "Acson AirCond Malaysia 标志",
+    "menuLabel": "菜单"
+  },
+  "fomo": {
+    "eyebrow": "{monthUpper} 优惠",
+    "body": "Acson 冷气分期租购每月 RM69 起 — {month} 优惠倒数",
+    "ctaLabel": "立即预订"
+  },
+  "usp": {
+    "items": [
+      {
+        "title": "价格含安装",
+        "body": "支架、10 尺喉管与标准布线已包含在内 — 绝无隐藏收费。"
+      },
+      {
+        "title": "1–3 天完成安装",
+        "body": "今天确认，技师三个工作日内上门。"
+      },
+      {
+        "title": "五年保修",
+        "body": "Acson 提供压缩机五年保修，我们的安装工程保修 60 天。"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Acson 冷气机授权安装商",
+    "title": "安装 Acson 冷气机，每月 RM99 起",
+    "titleAccent": "每月 RM99 起",
+    "subtitle": "Reino+、Avory Premium 与 Viento 现货供应 — 价格透明、技师经验丰富、工程有保障。",
+    "ctaPrimary": "WhatsApp 询价",
+    "ctaSecondary": "查看 Acson 型号",
+    "bgAlt": "技师在马来西亚现代住宅内安装 Acson 冷气机",
+    "chips": [
+      "安装",
+      "保养",
+      "分期租购"
+    ],
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "完成安装数"
+      },
+      {
+        "value": "4.9/5",
+        "label": "Google 评分"
+      },
+      {
+        "value": "40+",
+        "label": "Acson 品牌年资"
+      },
+      {
+        "value": "13",
+        "label": "覆盖州属"
+      }
+    ]
+  },
+  "trust": {
+    "label": "认证与注册机构",
+    "logos": [
+      {
+        "name": "Acson",
+        "alt": "Acson International 品牌标志"
+      },
+      {
+        "name": "马来西亚优良设计奖",
+        "alt": "Acson 冷气机荣获马来西亚优良设计奖"
+      },
+      {
+        "name": "SIRIM",
+        "alt": "马来西亚 SIRIM 认证标志"
+      },
+      {
+        "name": "SSM",
+        "alt": "马来西亚公司委员会注册"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Acson 型号",
+    "heading": "选择最适合您房间的 Acson 冷气机",
+    "headingAccent": "最适合您房间的",
+    "intro": "想购买、保养还是分期租购？在下方切换模式 — 价格与服务范围随之调整。",
+    "modeBeli": "购买与安装",
+    "modeServis": "保养与维修",
+    "modeSewa": "分期租购",
+    "imageAltTemplate": "安装于马来西亚住宅的 Acson {model} 冷气机",
+    "priceFrom": "RM {price} 起",
+    "priceLabelBeli": "机组 + 安装",
+    "priceLabelSewa": "每月分期租购",
+    "ctaBeli": "WhatsApp 询价",
+    "ctaServis": "WhatsApp 预约",
+    "ctaSewa": "WhatsApp 咨询租购",
+    "empty": "型号目录更新中。请 WhatsApp 我们索取最新库存清单。",
+    "guarantees": [
+      "压缩机五年保修",
+      "工程保修 60 天",
+      "一小时内回复",
+      "安装后支援"
+    ]
+  },
+  "process": {
+    "eyebrow": "分期租购流程",
+    "heading": "三步完成 Acson 冷气分期租购",
+    "headingAccent": "三步完成",
+    "steps": [
+      {
+        "title": "WhatsApp 告知需求",
+        "body": "告诉我们房间尺寸与预算，我们推荐最合适的 Acson 型号。",
+        "alt": "技师向屋主讲解 Acson 型号选择"
+      },
+      {
+        "title": "我们安装",
+        "body": "确认后 1–3 天技师上门，安装耗时 2–4 小时。",
+        "alt": "技师将 Acson 室内机安装到墙上"
+      },
+      {
+        "title": "按月付款",
+        "body": "每月 RM69 起，期满后冷气机 100% 归您所有。",
+        "alt": "一家人在 Acson 冷气房中舒适休息"
+      }
+    ],
+    "ctaLabel": "WhatsApp 联系",
+    "ctaNote": "第一步只需一分钟 — 发送房间尺寸，我们即刻回复报价。"
+  },
+  "rto": {
+    "eyebrow": "分期租购 vs 一次付清",
+    "heading": "无需一次付清。分期租购每月 RM69 起。",
+    "headingAccent": "分期租购每月 RM69 起。",
+    "sewaTitle": "分期租购",
+    "beliTitle": "一次付清（现金）",
+    "sewaPoints": [
+      "无需一次付清 — 每月 RM69 起",
+      "全新机组，免费安装",
+      "含一年保修",
+      "付清后冷气机归您所有",
+      "低押金 — RM200 起",
+      "无需银行贷款或信用卡"
+    ],
+    "beliPoints": [
+      {
+        "text": "全新机组与安装",
+        "good": true
+      },
+      {
+        "text": "Acson 标准保修",
+        "good": true
+      },
+      {
+        "text": "第一天起即归您所有",
+        "good": true
+      },
+      {
+        "text": "需一次支付大笔款项",
+        "good": false
+      },
+      {
+        "text": "预算紧张时较吃力",
+        "good": false
+      },
+      {
+        "text": "保养配套另行收费",
+        "good": false
+      }
+    ],
+    "tableHeading": "按马力划分的分期租购价格",
+    "months24": "24 个月",
+    "months36": "36 个月",
+    "depositLabel": "押金 {amount}",
+    "ctaLabel": "WhatsApp 咨询租购",
+    "plans": [
+      {
+        "hp": "1.0 匹",
+        "m24": "RM99/月",
+        "m36": "RM69/月",
+        "deposit": "RM200"
+      },
+      {
+        "hp": "1.5 匹",
+        "m24": "RM129/月",
+        "m36": "RM89/月",
+        "deposit": "RM200"
+      },
+      {
+        "hp": "2.0 匹",
+        "m24": "RM189/月",
+        "m36": "RM139/月",
+        "deposit": "RM300"
+      },
+      {
+        "hp": "2.5 匹",
+        "m24": "RM219/月",
+        "m36": "RM159/月",
+        "deposit": "RM300"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "我们的服务",
+    "heading": "为您的 Acson 冷气机提供安装、保养与分期租购",
+    "headingAccent": "为您的 Acson 冷气机",
+    "items": [
+      {
+        "name": "Acson 冷气机安装",
+        "description": "全新 Acson 机组配专业安装。壁挂式、匣式与吊顶式一应俱全。价格已含支架、喉管与标准布线。",
+        "price": "RM1,560 起，含安装",
+        "alt": "技师安装 Acson 壁挂式冷气机"
+      },
+      {
+        "name": "Acson 冷气机保养",
+        "description": "定期保养、化学清洗、加雪种与维修。冷气恢复制冷、电费下降、机组更耐用。我们熟悉每一款 Acson 型号。",
+        "price": "保养 RM80 起，化学清洗 RM130 起",
+        "alt": "技师为 Acson 蒸发器进行化学清洗"
+      },
+      {
+        "name": "Acson 分期租购",
+        "description": "无需一次付清。全新 Acson 分期租购每月 RM99 起 — 含机组、安装与一年保修。付清后即归您所有。",
+        "price": "24 个月，每月 RM99 起",
+        "alt": "一家人在客厅享受 Acson 冷气"
+      }
+    ],
+    "ctaLabel": "立即 WhatsApp"
+  },
+  "why": {
+    "eyebrow": "为何选择 Acson",
+    "heading": "马来西亚品牌，日本工艺 — 为何选择 Acson",
+    "headingAccent": "为何选择 Acson",
+    "bgAlt": "Acson 变频冷气机送出的冷风",
+    "acsonLabel": "Acson",
+    "genericLabel": "一般品牌",
+    "rows": [
+      {
+        "feature": "省电幅度",
+        "acson": "最高省电 48%",
+        "generic": "标准"
+      },
+      {
+        "feature": "能源评级",
+        "acson": "Reino+ 五星评级",
+        "generic": "三至四星"
+      },
+      {
+        "feature": "压缩机寿命",
+        "acson": "8 至 10 年",
+        "generic": "3 至 5 年"
+      },
+      {
+        "feature": "压缩机保修",
+        "acson": "5 年",
+        "generic": "1 至 2 年"
+      },
+      {
+        "feature": "WiFi 控制",
+        "acson": "内置 MyAcson 应用",
+        "generic": "少有提供"
+      },
+      {
+        "feature": "自清洁技术",
+        "acson": "专利 iClean+",
+        "generic": "无"
+      },
+      {
+        "feature": "R32 雪种",
+        "acson": "全系列",
+        "generic": "视型号而定"
+      }
+    ],
+    "points": [
+      "Acson 变频最高节省 48% 电费",
+      "Reino+ 获能源委员会五星评级",
+      "压缩机保修五年，零件三年",
+      "通过 MyAcson 应用智能控制",
+      "iClean+ 技术自动清洁蒸发器",
+      "全系列采用环保 R32 雪种"
+    ]
+  },
+  "results": {
+    "eyebrow": "实际成果",
+    "heading": "看看我们的保养成果 — 制冷如新",
+    "headingAccent": "制冷如新",
+    "beforeLabel": "之前",
+    "afterLabel": "之后",
+    "items": [
+      {
+        "title": "1.5 匹壁挂式化学清洗",
+        "location": "雪兰莪蒲种",
+        "before": "蒸发器积满四年灰尘，风量微弱，房间无法降温。",
+        "after": "蒸发器焕然一新，风量强劲，十分钟内降温。",
+        "alt": "Acson 蒸发器化学清洗前后对比"
+      },
+      {
+        "title": "2 匹全面保养与加雪种",
+        "location": "雪兰莪莎阿南",
+        "before": "机组漏水且噪音大，雪种几乎耗尽，压缩机过热。",
+        "after": "不再漏水，恢复安静。R32 加满，制冷回到原厂水平。",
+        "alt": "技师为 Acson 室外机进行全面保养"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "工程相册",
+    "heading": "实绩为证，而非空谈",
+    "headingAccent": "而非空谈",
+    "intro": "以下每张照片均出自我们团队亲手完成的 Acson 安装或保养工程。",
+    "ctaLabel": "WhatsApp 询价",
+    "alts": [
+      "Acson Reino+ 1.5 匹安装于主卧",
+      "技师在公寓安装 Acson 室内机",
+      "为排屋 Acson 室外机进行保养",
+      "技师向屋主讲解冷气设定",
+      "通过 MyAcson 手机应用控制 Acson 冷气",
+      "Acson 安装的整齐喉管与布线"
+    ],
+    "captions": [
+      {
+        "caption": "Reino+ 1.5 匹安装",
+        "location": "蒲种主卧"
+      },
+      {
+        "caption": "室内机安装",
+        "location": "南美景公寓"
+      },
+      {
+        "caption": "室外机保养",
+        "location": "莎阿南排屋"
+      },
+      {
+        "caption": "向客户讲解",
+        "location": "赛城，安装后"
+      },
+      {
+        "caption": "MyAcson WiFi 控制",
+        "location": "智能家居整合"
+      },
+      {
+        "caption": "喉管收口整齐",
+        "location": "安装细节"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "我们的团队",
+    "heading": "经验丰富的技师，整洁的工艺",
+    "headingAccent": "整洁的工艺",
+    "body": "我们的每位技师都受过 Acson 专项培训 — 从壁挂式到匣式。工艺整洁、准时上门、满意有保障。",
+    "imageAlt": "Acson 冷气技师团队在服务车前合影",
+    "badgeValue": "1,000+",
+    "badgeLabel": "完成安装数",
+    "ctaLabel": "WhatsApp 预约",
+    "stats": [
+      {
+        "value": "15+",
+        "label": "经验技师"
+      },
+      {
+        "value": "10+",
+        "label": "行业年资"
+      },
+      {
+        "value": "1–3",
+        "label": "天内完成安装"
+      },
+      {
+        "value": "100%",
+        "label": "工程保障"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "客户评价",
+    "heading": "深受全马客户信赖",
+    "headingAccent": "全马",
+    "ratingLabel": "Google 评分 4.9 / 5",
+    "items": [
+      {
+        "name": "Ahmad R.",
+        "initials": "AR",
+        "role": "屋主，蒲种",
+        "quote": "我在 WhatsApp 询问 Reino+ 1.5 匹，当天下午就确认了，隔天技师上门安装。快速、够冷、价格合理。"
+      },
+      {
+        "name": "Faizal M.",
+        "initials": "FM",
+        "role": "房东，莎阿南",
+        "quote": "我为出租屋分期租购 Viento 2 匹，每月仅 RM189，无需大笔资金。租客很满意。"
+      },
+      {
+        "name": "Siti A.",
+        "initials": "SA",
+        "role": "家庭主妇，安邦",
+        "quote": "以前电费每月 RM400，换成 Acson Reino+ 变频后降到 RM240。五星评级名副其实。"
+      },
+      {
+        "name": "Jason T.",
+        "initials": "JT",
+        "role": "公寓业主，KLCC",
+        "quote": "四年未保养，化学清洗后制冷如新机。工艺整洁，没留下任何脏乱。"
+      },
+      {
+        "name": "Nurul H.",
+        "initials": "NH",
+        "role": "公寓业主，赛城",
+        "quote": "我比较了五家店，这家最透明 — 没有隐藏费用，还有分期租购选项。"
+      },
+      {
+        "name": "Kevin L.",
+        "initials": "KL",
+        "role": "企业主，八打灵再也",
+        "quote": "为新办公室安装三台 Avory Premium。外形俐落、运行安静，一天内全部完成。"
+      }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "服务地区",
+    "heading": "我们在全马提供 Acson 冷气安装与保养",
+    "headingAccent": "全马",
+    "townsLabel": "{count} 个地区",
+    "viewAll": "查看所有地区",
+    "note": "找不到您的地区？WhatsApp 我们，我们为您查询覆盖范围。",
+    "indexTitle": "Acson 冷气机全部服务地区",
+    "indexSubtitle": "选择您的城镇，查看当地安装、保养与分期租购价格。"
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "heading": "关于 Acson 冷气机的常见问题",
+    "headingAccent": "关于 Acson 冷气机",
+    "items": [
+      {
+        "q": "安装 Acson 冷气机需要多少钱？",
+        "a": "AVO 定频 1.0 匹 RM1,240 起，Viento 变频 RM1,360 起，Reino+ RM1,695 起，Avory Premium RM2,130 起。价格已含支架、十尺喉管与标准布线。若需更长喉管，我们会在开工前告知额外费用。"
+      },
+      {
+        "q": "Acson 分期租购如何运作？",
+        "a": "您选择型号，我们安装全新机组。月供 36 个月 RM69 起，或 24 个月 RM99 起。押金视马力介于 RM200 至 RM300。付完最后一期，机组 100% 归您所有。"
+      },
+      {
+        "q": "分期租购配套包含什么？",
+        "a": "包含全新 Acson 机组、专业安装与一年保修。您还可加购每月 RM49 的保养配套，我们每三个月上门保养一次。"
+      },
+      {
+        "q": "你们服务哪些地区？",
+        "a": "我们服务 13 个州属超过 150 个城镇，从吉隆坡、雪兰莪到柔佛、槟城、沙巴与砂拉越。每个地区在本站都有专属页面。若未列出您的地区，请 WhatsApp 我们查询。"
+      },
+      {
+        "q": "安装需要多久？",
+        "a": "确认后技师通常一至三天内上门。安装本身视屋内布局需时两至四小时。预订时可选择适合您的时段。"
+      },
+      {
+        "q": "为何选择 Acson 而非其他品牌？",
+        "a": "Acson 是隶属日本 Daikin Industries 的马来西亚冷气品牌 — 日本工艺，本地价格。Reino+ 获能源委员会五星评级，最高省电 48%。全系列采用环保 R32 雪种。"
+      },
+      {
+        "q": "分期租购期间机组故障怎么办？",
+        "a": "保修期内我们免费维修或更换。保修期后请 WhatsApp 我们安排保养 — 分期租购客户享优惠价。"
+      },
+      {
+        "q": "冷气机多久保养一次？",
+        "a": "家庭使用每三至四个月常规保养，一年一次化学清洗即可。若冷气整天运行或住家临近尘土较多的道路，建议缩短至每两个月一次。"
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "冷气舒爽，心情轻松。立即 WhatsApp 我们。",
+    "body": "已完成超过 1,000 宗安装，价格透明，技师一至三天内上门。或以每月 RM69 起开始分期租购。",
+    "ctaLabel": "WhatsApp 询价",
+    "bgAlt": "马来西亚家庭在 Acson 冷气客厅中休息"
+  },
+  "footer": {
+    "tagline": "专精 Acson 冷气机安装、保养与分期租购。马来西亚品牌，日本工艺。",
+    "faqLabel": "常见问题",
+    "copyright": "© 2026 Acson AirCond Malaysia. 版权所有。"
+  },
+  "blog": {
+    "title": "Acson 冷气机博客",
+    "subtitle": "为马来西亚冷气机用户提供价格、保养与省电指南。",
+    "breadcrumbHome": "首页",
+    "breadcrumbBlog": "博客",
+    "readMore": "阅读更多",
+    "noPosts": "尚未发布文章。",
+    "publishedOn": "发布于",
+    "minRead": "分钟阅读",
+    "recentPosts": "最新文章",
+    "ctaBannerTitle": "想知道您家的报价？",
+    "ctaBannerBody": "通过 WhatsApp 发送房间尺寸，我们一小时内回复安装报价。",
+    "ctaBannerLabel": "WhatsApp 联系"
+  },
+  "location": {
+    "eyebrow": "{location} Acson 冷气机",
+    "title": "在 {location} 安装 Acson 冷气机，每月 RM99 起",
+    "subtitle": "我们的技师服务 {location} 及 {state} 全境 — 安装、保养与分期租购，价格同样透明。",
+    "intro": "我们已在 {location} 一带完成数百宗 Acson 安装。技师驻扎 {state}，今天确认的预订通常在一至三个工作日内完成安装。您在此看到的价格就是在 {location} 支付的价格 — 没有隐藏的车马费。",
+    "bgAlt": "我们 Acson 冷气团队服务的 {location} 住宅区",
+    "breadcrumbCoverage": "服务地区",
+    "nearbyHeading": "{state} 邻近地区",
+    "faqHeading": "{location} 常见问题",
+    "faq": [
+      {
+        "q": "多久能抵达 {location}？",
+        "a": "对于 {location}，您在 WhatsApp 确认预订后，我们的技师通常一至三个工作日内即可上门。"
+      },
+      {
+        "q": "{location} 是否收取车马费？",
+        "a": "不收。{location} 位于我们的标准服务范围内，安装与保养价格与主页所列一致。"
+      },
+      {
+        "q": "{location} 可以分期租购吗？",
+        "a": "可以。{location} 所有客户均可享每月 RM69 起的分期租购，含全新机组、安装与一年保修。"
+      }
+    ],
+    "ctaHeading": "准备在 {location} 安装 Acson 冷气机？",
+    "ctaLabel": "WhatsApp 联系"
+  },
+  "redirect": {
+    "heading": "正在为您接通 WhatsApp",
+    "subtext": "请稍候 — 我们正在为您打开与 Acson AirCond Malaysia 团队的对话。",
+    "fallback": "没有自动打开？点击这里"
+  },
+  "meta": {
+    "home": {
+      "title": "马来西亚 Acson 冷气安装与保养 | 分期租购每月 RM99 起",
+      "description": "马来西亚 Acson 冷气机授权安装商。安装价格含支架与喉管，化学清洗 RM130 起，分期租购每月 RM99 起。WhatsApp 询价。"
+    },
+    "blogListing": {
+      "title": "Acson 冷气机博客 | 价格、保养与省电指南",
+      "description": "马来西亚冷气机用户完整指南 — Acson 型号价格、保养费用、化学清洗与省电方法。"
+    },
+    "coverage": {
+      "title": "Acson 冷气服务地区 | 全马 155 个城镇",
+      "description": "我们在 13 个州属提供 Acson 冷气安装、保养与分期租购的完整城镇清单。"
+    },
+    "location": {
+      "title": "{location} Acson 冷气安装与保养 | 分期租购 RM99 起",
+      "description": "{state}{location} Acson 冷气安装与保养。价格含支架与喉管，化学清洗 RM130 起，分期租购每月 RM99 起。"
+    }
+  },
+  "contact": {
+    "availability": "致电我们 · 每日 9am – 9pm"
+  }
+}

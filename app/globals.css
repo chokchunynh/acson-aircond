@@ -1,0 +1,575 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Warm Backgrounds */
+  --color-white: #FFFFFF;
+  --color-gray-50: #FDF8F8;
+  --color-gray-100: #FAF0F0;
+  --color-gray-200: #E8DDD8;
+  --color-gray-300: #D1C4BD;
+
+  /* Brand — Acson Red (from official logo) */
+  --color-brand: #CC1B2B;
+  --color-brand-light: #E63946;
+  --color-brand-dark: #A31623;
+  --color-accent-emerald: #10B981;
+  --color-accent-amber: #F59E0B;
+  --color-cta: #CC1B2B;
+  --color-whatsapp: #25D366;
+
+  /* Warm Text */
+  --color-text-dark: #1A1118;
+  --color-text-body: #4A3F47;
+  --color-text-muted: #8C7E86;
+  --color-text-light: #F5F0F2;
+
+  /* Borders */
+  --color-border: #E8DDD8;
+
+  /* Fonts */
+  --font-body: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-heading: var(--font-dmserif), 'DM Serif Display', Georgia, serif;
+}
+
+/* ============================================
+   UTOPIA STRUCTURAL TOKENS (brand CI)
+   Radius + motion only — the palette, fonts and
+   button shape stay this project's own.
+   ============================================ */
+:root {
+  --r-button: 8px;
+  --r-card: 16px;
+  --r-pill: 999px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 0.18s;
+  --dur: 0.3s;
+  --dur-slow: 0.5s;
+  --wa-green: #25D366;
+  --wa-green-hover: #1EBE57;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* The directional reveal animations below start at translateX(±40px), so any
+     block that has not been revealed yet sticks out past the viewport and the
+     whole page scrolls sideways on mobile (measured: 414px wide inside a 390px
+     viewport). `clip` rather than `hidden` — `hidden` turns <html> into a scroll
+     container and the sticky header stops sticking. */
+  overflow-x: clip;
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-text-body);
+  font-family: var(--font-body);
+}
+
+/* ============================================
+   TEXT SPACING — house defaults
+   These MUST stay inside @layer base. Unlayered, they outrank Tailwind's whole
+   utilities layer regardless of specificity, which silently threw away every
+   text-sm / mb-4 / mx-auto / font-bold on body copy across the site.
+   Inside `base` they still beat Preflight (same layer, later + higher
+   specificity) while losing to utilities, which is the intent.
+   ============================================ */
+@layer base {
+  h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
+  p, li, blockquote,
+  .blog-content p, .blog-content li, .blog-content blockquote { line-height: 1.4; }
+
+  /* Preflight resets heading font-weight to inherit, collapsing every section
+     heading to 400. Re-assert the weights, body-prefixed to out-specify it. */
+  body h1 { font-weight: 800; }
+  body h2, body h3, body h4 { font-weight: 700; }
+  body h5, body h6 { font-weight: 400; }
+}
+
+@layer components {
+  /* House rule puts body copy in h5/h6 for keyword-rich headings. Strip the
+     display-heading sizing/weight/margin they'd otherwise inherit — in
+     `components` so it beats the base element rules above but still yields to
+     a per-instance utility.
+
+     line-height 1.55, not the 1.4 body default: this copy is mostly 13–14px
+     inside cards, where 1.4 sets the lines too tight to scan comfortably.
+     CLAUDE.md allows the component-level override for exactly this reason. */
+  h5.body-text, h6.body-text {
+    font-weight: inherit;
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+/* ============================================
+   SCROLL REVEAL — Directional Slide-Ins
+   ============================================ */
+/* These wrap flex/grid children; without min-width:0 they inherit
+   min-width:auto and refuse to shrink, overflowing the row at tablet widths. */
+.reveal-up, .reveal-left, .reveal-right { min-width: 0; }
+
+.reveal-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity var(--dur-slow) var(--ease),
+              transform var(--dur-slow) var(--ease);
+}
+.reveal-up.visible { opacity: 1; transform: translateY(0); }
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity var(--dur-slow) var(--ease),
+              transform var(--dur-slow) var(--ease);
+}
+.reveal-left.visible { opacity: 1; transform: translateX(0); }
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity var(--dur-slow) var(--ease),
+              transform var(--dur-slow) var(--ease);
+}
+.reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-up, .reveal-left, .reveal-right {
+    opacity: 1; transform: none; transition: none;
+  }
+}
+
+/* ============================================
+   CARD — Borderless, Deep Shadow
+   ============================================ */
+.card {
+  background: #FFFFFF;
+  border: none;
+  border-bottom: 4px solid var(--color-brand);
+  border-radius: var(--r-card);
+  box-shadow: 0 4px 16px rgba(26, 17, 24, 0.06), 0 8px 32px rgba(26, 17, 24, 0.04);
+  transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.card:hover {
+  box-shadow: 0 8px 24px rgba(204, 27, 43, 0.12), 0 16px 48px rgba(204, 27, 43, 0.06);
+  transform: scale(1.02);
+}
+
+/* ============================================
+   ACCENT UNDERLINE
+   ============================================ */
+.accent-text { color: var(--color-brand); }
+.accent-underline {
+  position: relative;
+  display: inline;
+  color: var(--color-brand);
+}
+.accent-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 30%;
+  background: rgba(204, 27, 43, 0.12);
+  z-index: -1;
+  border-radius: 2px;
+}
+
+/* ============================================
+   SECTION ANGLE — Diagonal separator
+   ============================================ */
+.section-angle { clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%); }
+.section-angle-reverse { clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%); }
+
+/* ============================================
+   SECTION HEADER — Line accent pattern
+   ============================================ */
+.section-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+}
+.section-label::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 3px;
+  background: var(--color-brand);
+  margin-bottom: 8px;
+}
+.section-label--center::before { margin-left: auto; margin-right: auto; }
+
+/* Wrapped in @layer components so per-instance Tailwind utilities
+   (bg-transparent, text-white, w-full …) still win on top of them. */
+@layer components {
+  /* ============================================
+     BUTTONS — one rounded shape, colour varies
+     ============================================ */
+  .btn-primary,
+  .btn-secondary,
+  .btn-white,
+  .btn-whatsapp,
+  .btn-wa {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border-radius: var(--r-button);
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: filter var(--dur) var(--ease), box-shadow var(--dur) var(--ease),
+                background var(--dur) var(--ease), color var(--dur) var(--ease);
+  }
+
+  .btn-primary { background: var(--color-brand); color: #fff; }
+  .btn-primary:hover { filter: brightness(1.1); box-shadow: 0 0 20px rgba(204, 27, 43, 0.3); }
+
+  .btn-secondary { background: #fff; color: var(--color-brand); border: 2px solid var(--color-brand); }
+  .btn-secondary:hover { background: var(--color-brand); color: #fff; }
+
+  .btn-white { background: #fff; color: var(--color-brand); }
+  .btn-white:hover { filter: brightness(0.95); box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); }
+
+  /* WhatsApp CTA — official green only, never brand-tinted. */
+  .btn-whatsapp, .btn-wa { background: var(--wa-green); color: #fff; }
+  .btn-whatsapp:hover, .btn-wa:hover {
+    background: var(--wa-green-hover);
+    box-shadow: 0 0 20px rgba(37, 211, 102, 0.3);
+  }
+  .btn-primary:focus-visible,
+  .btn-secondary:focus-visible,
+  .btn-white:focus-visible,
+  .btn-whatsapp:focus-visible,
+  .btn-wa:focus-visible {
+    outline: 3px solid var(--color-brand-light);
+    outline-offset: 2px;
+  }
+  .btn-primary:active,
+  .btn-secondary:active,
+  .btn-white:active,
+  .btn-whatsapp:active,
+  .btn-wa:active { transform: translateY(1px); }
+}
+
+@keyframes whatsapp-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+  70% { box-shadow: 0 0 0 14px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+/* Header WhatsApp CTA. Hidden on mobile so it can't collide with the
+   language switcher — the sticky FAB carries the action there instead. */
+.nav-cta {
+  height: 40px;
+  padding: 0 14px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+@media (max-width: 879px) {
+  .nav-cta { display: none !important; }
+}
+
+/* ============================================
+   FAQ — Minimal line style
+   ============================================ */
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s var(--ease); }
+.faq-open .faq-answer { max-height: 640px; }
+.faq-toggle { transition: transform var(--dur) var(--ease); }
+.faq-open .faq-toggle { transform: rotate(45deg); }
+
+/* ============================================
+   DIAGONAL LINE PATTERN — for FinalCTA
+   ============================================ */
+.diagonal-lines {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 20px,
+    rgba(255, 255, 255, 0.06) 20px,
+    rgba(255, 255, 255, 0.06) 21px
+  );
+}
+
+/* ============================================
+   LINK UNDERLINE ANIMATION
+   ============================================ */
+.link-hover { position: relative; text-decoration: none; }
+.link-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-brand);
+  transition: width var(--dur) var(--ease);
+}
+.link-hover:hover::after { width: 100%; }
+
+/* ============================================
+   LANGUAGE SWITCHER
+   Element resets and Tailwind Preflight both beat a scoped <style> block,
+   so these live here with !important on the layout-critical declarations.
+   ============================================ */
+.lsw { position: relative; display: inline-flex; }
+.lsw-toggle {
+  display: none !important;
+  align-items: center;
+  gap: 8px;
+}
+.lsw-item {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 6px;
+  /* Same height as .nav-cta — the pills and the WhatsApp CTA share a row. */
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--r-pill);
+  background: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text-body);
+  text-decoration: none;
+  transition: border-color var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+.lsw-item:hover { border-color: var(--color-brand); color: var(--color-brand); }
+.lsw-item.is-active { border-color: var(--color-brand); color: var(--color-brand); background: var(--color-gray-50); }
+.lsw-flag { display: block; flex: 0 0 auto; border-radius: 50%; }
+.lsw-label { line-height: 1; }
+.lsw-trigger {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--r-pill);
+  background: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text-body);
+  cursor: pointer;
+}
+.lsw-trigger:hover { border-color: var(--color-brand); color: var(--color-brand); }
+.lsw-trigger-label { line-height: 1; }
+.lsw-caret { flex: 0 0 auto; }
+.lsw-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 60;
+  display: flex !important;
+  flex-direction: column !important;
+  min-width: 132px;
+  padding: 6px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(26, 17, 24, 0.12);
+}
+.lsw-menu-item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-body);
+  text-decoration: none;
+}
+.lsw-menu-item:hover { background: var(--color-gray-50); color: var(--color-brand); }
+.lsw-menu-item.is-active { color: var(--color-brand); }
+/* The three bordered pills are 213px wide vs 84px for the dropdown; they only
+   fit alongside the contact number and CTA from 1280 up. */
+@media (min-width: 1280px) {
+  .lsw-toggle { display: inline-flex !important; }
+  .lsw-trigger, .lsw-menu { display: none !important; }
+}
+
+/* ============================================
+   CONTACT NUMBER (header + footer)
+   Ported from templates/site-chrome/contact-number.css onto this project's
+   tokens. Lives here, not in a styled-jsx block: the element is passed into the
+   client SiteHeader as a prop, so that component's scoped styles never reach it.
+   ============================================ */
+.contact-number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
+  line-height: 1.15;
+  text-decoration: none;
+  transition: opacity var(--dur) var(--ease);
+}
+.contact-number:hover { opacity: 0.78; }
+.contact-number:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.contact-number-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+.contact-number-value {
+  font-family: var(--font-heading);
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--color-text-dark);
+  white-space: nowrap;
+}
+
+/* Header: the desktop instance hides on mobile — the drawer carries its own
+   copy, so showing both would duplicate the number on small screens. */
+/* Extra separation from the language pills — the .site-actions gap alone left
+   the number reading as part of the switcher group. */
+.site-actions .contact-number { margin-right: 14px; }
+@media (max-width: 1179px) {
+  .site-actions .contact-number { display: none; }
+}
+/* Right-aligned, sitting beside the language switcher on one row. Set here
+   rather than in SiteHeader's styled-jsx: the element is passed into that
+   client component as a prop, so its scoped styles never reach it. */
+.site-drawer-actions .contact-number { align-items: flex-end; text-align: right; }
+@media (min-width: 1024px) {
+  .site-drawer-actions .contact-number { display: none; }
+}
+
+/* Footer sits on the pale panel; centred on mobile with the rest of the chrome. */
+.contact-number--footer .contact-number-value { font-size: 19px; }
+@media (max-width: 879px) {
+  .contact-number--footer { align-items: center; }
+}
+
+/* ============================================
+   BLOG ARTICLE BODY
+   The article HTML comes from the database, so every tag it can emit needs
+   a rule here or the post renders as an undifferentiated wall of text.
+   ============================================ */
+.blog-content { color: var(--color-text-body); font-size: 1rem; }
+.blog-content h2 {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  line-height: 1.2;
+  margin: 2.25rem 0 0.75rem;
+}
+.blog-content h3 {
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  line-height: 1.2;
+  margin: 1.75rem 0 0.625rem;
+}
+.blog-content h4 {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  line-height: 1.2;
+  margin: 1.375rem 0 0.5rem;
+}
+.blog-content p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0 0 1.125rem;
+}
+.blog-content ul,
+.blog-content ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+.blog-content ol { list-style: decimal; }
+.blog-content li { margin-bottom: 0.5rem; line-height: 1.4; }
+.blog-content a { color: var(--color-brand); font-weight: 600; text-decoration: underline; }
+.blog-content a:hover { color: var(--color-brand-dark); }
+.blog-content strong, .blog-content b { color: var(--color-text-dark); font-weight: 700; }
+.blog-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--r-card);
+  margin: 1.75rem 0;
+}
+.blog-content blockquote {
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--color-brand);
+  background: var(--color-gray-50);
+  border-radius: 0 8px 8px 0;
+  color: var(--color-text-dark);
+}
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-size: 0.9375rem;
+}
+.blog-content th, .blog-content td {
+  border: 1px solid var(--color-border);
+  padding: 10px 12px;
+  text-align: left;
+}
+.blog-content th { background: var(--color-gray-50); color: var(--color-text-dark); font-weight: 700; }
+.blog-content figure { margin: 1.75rem 0; }
+.blog-content figcaption {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Table of contents — a bordered box so the anchor list reads as navigation
+   rather than a flat run of section names. */
+.blog-content nav,
+.blog-toc,
+.toc {
+  margin: 0 0 2rem;
+  padding: 1.125rem 1.25rem;
+  background: var(--color-gray-50);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-brand);
+  border-radius: 0 var(--r-card) var(--r-card) 0;
+}
+.blog-content nav ul,
+.blog-content nav ol {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.blog-content nav li { margin-bottom: 0.375rem; }
+.blog-content nav a {
+  color: var(--color-text-body);
+  font-weight: 600;
+  text-decoration: none;
+}
+.blog-content nav a:hover { color: var(--color-brand); text-decoration: underline; }
+
+/* ============================================
+   SCROLLBAR + SELECTION
+   ============================================ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-gray-50); }
+::-webkit-scrollbar-thumb { background: var(--color-gray-300); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-muted); }
+::selection { background: rgba(204, 27, 43, 0.15); color: var(--color-text-dark); }
+
+/* ============================================
+   HEADING UTILITY
+   ============================================ */
+.font-heading { font-family: var(--font-heading); }

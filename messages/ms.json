@@ -1,0 +1,547 @@
+{
+  "nav": {
+    "home": "Utama",
+    "products": "Model Acson",
+    "services": "Servis",
+    "calculator": "Harga Sewa Beli",
+    "locations": "Kawasan",
+    "blog": "Blog",
+    "whatsappCta": "WhatsApp Kami",
+    "logoAlt": "Logo Acson AirCond Malaysia",
+    "menuLabel": "Menu"
+  },
+  "fomo": {
+    "eyebrow": "PROMO {monthUpper}",
+    "body": "Sewa beli aircond Acson dari RM69/bulan — tawaran {month} tamat dalam",
+    "ctaLabel": "Tempah Slot"
+  },
+  "usp": {
+    "items": [
+      {
+        "title": "Harga Termasuk Pasang",
+        "body": "Bracket, piping 10 kaki dan wiring standard sudah termasuk — takde caj tersembunyi."
+      },
+      {
+        "title": "Siap Dalam 1–3 Hari",
+        "body": "Confirm hari ini, technician sampai dalam masa tiga hari bekerja."
+      },
+      {
+        "title": "Warranty 5 Tahun",
+        "body": "Compressor Acson dijamin lima tahun, kerja pemasangan kami dijamin 60 hari."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Pemasang Sah Aircond Acson",
+    "title": "Pasang Aircond Acson Dari RM99 Sebulan",
+    "titleAccent": "Dari RM99 Sebulan",
+    "subtitle": "Reino+, Avory Premium dan Viento ada stok — harga transparent, technician berpengalaman, jaminan kerja.",
+    "ctaPrimary": "WhatsApp Untuk Harga",
+    "ctaSecondary": "Lihat Model Acson",
+    "bgAlt": "Technician memasang unit aircond Acson di dinding rumah moden Malaysia",
+    "chips": [
+      "Pemasangan",
+      "Servis",
+      "Sewa Beli"
+    ],
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "Pemasangan Siap"
+      },
+      {
+        "value": "4.9/5",
+        "label": "Penilaian Google"
+      },
+      {
+        "value": "40+",
+        "label": "Tahun Jenama Acson"
+      },
+      {
+        "value": "13",
+        "label": "Negeri Diliputi"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Diiktiraf dan berdaftar dengan",
+    "logos": [
+      {
+        "name": "Acson",
+        "alt": "Logo jenama Acson International"
+      },
+      {
+        "name": "Malaysia Good Design",
+        "alt": "Anugerah Malaysia Good Design untuk aircond Acson"
+      },
+      {
+        "name": "SIRIM",
+        "alt": "Tanda pensijilan SIRIM Malaysia"
+      },
+      {
+        "name": "SSM",
+        "alt": "Pendaftaran Suruhanjaya Syarikat Malaysia"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Model Acson",
+    "heading": "Pilih Aircond Acson Yang Sesuai Untuk Bilik Anda",
+    "headingAccent": "Yang Sesuai Untuk Bilik Anda",
+    "intro": "Nak beli, servis, atau sewa beli? Pilih mod di bawah — harga dan skop kerja berubah ikut pilihan anda.",
+    "modeBeli": "Beli & Pasang",
+    "modeServis": "Servis & Repair",
+    "modeSewa": "Sewa Beli",
+    "imageAltTemplate": "Unit aircond Acson {model} dipasang di rumah Malaysia",
+    "priceFrom": "Dari RM {price}",
+    "priceLabelBeli": "Unit + Pasang",
+    "priceLabelSewa": "Sewa Beli Bulanan",
+    "ctaBeli": "WhatsApp Untuk Harga",
+    "ctaServis": "WhatsApp Untuk Booking",
+    "ctaSewa": "WhatsApp Sewa Beli",
+    "empty": "Katalog model sedang dikemas kini. WhatsApp kami untuk senarai stok terkini.",
+    "guarantees": [
+      "Warranty Compressor 5 Tahun",
+      "Jaminan Kerja 60 Hari",
+      "Balasan Dalam 1 Jam",
+      "Sokongan Selepas Pasang"
+    ]
+  },
+  "process": {
+    "eyebrow": "Cara Sewa Beli",
+    "heading": "Sewa Beli Aircond Acson Dalam 3 Langkah",
+    "headingAccent": "Dalam 3 Langkah",
+    "steps": [
+      {
+        "title": "WhatsApp Butiran Anda",
+        "body": "Beritahu saiz bilik dan bajet anda. Kami cadangkan model Acson yang paling sesuai.",
+        "alt": "Technician menerangkan pilihan model aircond Acson kepada pemilik rumah"
+      },
+      {
+        "title": "Kami Pasang",
+        "body": "Technician sampai 1–3 hari selepas confirm. Pemasangan siap dalam 2–4 jam.",
+        "alt": "Technician memasang unit dalaman aircond Acson pada dinding"
+      },
+      {
+        "title": "Bayar Bulanan",
+        "body": "Dari RM69 sebulan. Selepas tempoh tamat, aircond itu 100% jadi milik anda.",
+        "alt": "Keluarga berehat di ruang tamu yang sejuk dengan aircond Acson"
+      }
+    ],
+    "ctaLabel": "WhatsApp Kami",
+    "ctaNote": "Langkah pertama ambil masa satu minit — hantar saiz bilik anda, kami balas dengan harga."
+  },
+  "rto": {
+    "eyebrow": "Sewa Beli vs Beli Terus",
+    "heading": "Tak Perlu Bayar Penuh. Sewa Beli Dari RM69 Sebulan.",
+    "headingAccent": "Sewa Beli Dari RM69 Sebulan.",
+    "sewaTitle": "Sewa Beli",
+    "beliTitle": "Beli Terus (Tunai)",
+    "sewaPoints": [
+      "Tak perlu bayar penuh — dari RM69 sebulan",
+      "Unit baru 100% dan pemasangan percuma",
+      "Warranty satu tahun sudah termasuk",
+      "Habis bayar, aircond jadi milik anda",
+      "Deposit rendah — dari RM200 sahaja",
+      "Tak payah pinjam bank atau guna kad kredit"
+    ],
+    "beliPoints": [
+      {
+        "text": "Unit baru 100% dan pemasangan",
+        "good": true
+      },
+      {
+        "text": "Warranty standard Acson",
+        "good": true
+      },
+      {
+        "text": "Milik anda serta-merta",
+        "good": true
+      },
+      {
+        "text": "Kena keluar duit besar sekaligus",
+        "good": false
+      },
+      {
+        "text": "Bajet ketat jadi susah",
+        "good": false
+      },
+      {
+        "text": "Pelan penyelenggaraan dikenakan caj berasingan",
+        "good": false
+      }
+    ],
+    "tableHeading": "Harga Sewa Beli Mengikut Kuasa Kuda",
+    "months24": "24 bulan",
+    "months36": "36 bulan",
+    "depositLabel": "Deposit {amount}",
+    "ctaLabel": "WhatsApp Sewa Beli",
+    "plans": [
+      {
+        "hp": "1.0 HP",
+        "m24": "RM99/bln",
+        "m36": "RM69/bln",
+        "deposit": "RM200"
+      },
+      {
+        "hp": "1.5 HP",
+        "m24": "RM129/bln",
+        "m36": "RM89/bln",
+        "deposit": "RM200"
+      },
+      {
+        "hp": "2.0 HP",
+        "m24": "RM189/bln",
+        "m36": "RM139/bln",
+        "deposit": "RM300"
+      },
+      {
+        "hp": "2.5 HP",
+        "m24": "RM219/bln",
+        "m36": "RM159/bln",
+        "deposit": "RM300"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Servis Kami",
+    "heading": "Pasang, Servis dan Sewa Beli Untuk Aircond Acson Anda",
+    "headingAccent": "Untuk Aircond Acson Anda",
+    "items": [
+      {
+        "name": "Pasang Aircond Acson",
+        "description": "Unit Acson baru berserta pemasangan profesional. Semua jenis tersedia — wall mounted, cassette dan ceiling. Harga sudah termasuk bracket, piping dan wiring standard.",
+        "price": "Dari RM1,560 termasuk pemasangan",
+        "alt": "Technician memasang unit aircond Acson wall mounted"
+      },
+      {
+        "name": "Servis Aircond Acson",
+        "description": "Servis berkala, chemical wash, top-up gas dan pembaikan. Aircond sejuk semula, bil elektrik turun, unit tahan lebih lama. Kami pakar setiap model Acson.",
+        "price": "Servis dari RM80, chemical wash dari RM130",
+        "alt": "Technician menjalankan chemical wash pada coil aircond Acson"
+      },
+      {
+        "name": "Sewa Beli Aircond Acson",
+        "description": "Tak perlu bayar penuh. Sewa beli Acson baru dari RM99 sebulan — termasuk unit, pemasangan dan warranty satu tahun. Habis bayar, aircond itu milik anda.",
+        "price": "Dari RM99 sebulan selama 24 bulan",
+        "alt": "Keluarga menikmati kesejukan aircond Acson di ruang tamu"
+      }
+    ],
+    "ctaLabel": "WhatsApp Sekarang"
+  },
+  "why": {
+    "eyebrow": "Kenapa Acson",
+    "heading": "Jenama Malaysia, Kejuruteraan Jepun — Kenapa Pilih Acson",
+    "headingAccent": "Kenapa Pilih Acson",
+    "bgAlt": "Aliran udara sejuk dari unit aircond inverter Acson",
+    "acsonLabel": "Acson",
+    "genericLabel": "Jenama biasa",
+    "rows": [
+      {
+        "feature": "Penjimatan elektrik",
+        "acson": "Jimat sehingga 48%",
+        "generic": "Standard"
+      },
+      {
+        "feature": "Penarafan tenaga",
+        "acson": "5 bintang pada Reino+",
+        "generic": "3 hingga 4 bintang"
+      },
+      {
+        "feature": "Hayat compressor",
+        "acson": "8 hingga 10 tahun",
+        "generic": "3 hingga 5 tahun"
+      },
+      {
+        "feature": "Warranty compressor",
+        "acson": "5 tahun",
+        "generic": "1 hingga 2 tahun"
+      },
+      {
+        "feature": "Kawalan WiFi",
+        "acson": "MyAcson App disertakan",
+        "generic": "Jarang disediakan"
+      },
+      {
+        "feature": "Teknologi cuci sendiri",
+        "acson": "iClean+ berpaten",
+        "generic": "Tiada"
+      },
+      {
+        "feature": "Gas penyejuk R32",
+        "acson": "Semua model",
+        "generic": "Bergantung model"
+      }
+    ],
+    "points": [
+      "Inverter Acson jimat sehingga 48% bil elektrik",
+      "Reino+ dapat penarafan tenaga 5 bintang Suruhanjaya Tenaga",
+      "Warranty compressor 5 tahun, alat ganti 3 tahun",
+      "Kawalan pintar melalui MyAcson App",
+      "Teknologi iClean+ membersihkan coil secara automatik",
+      "Semua model guna gas R32 yang mesra alam"
+    ]
+  },
+  "results": {
+    "eyebrow": "Hasil Kerja",
+    "heading": "Tengok Hasil Servis Kami — Aircond Sejuk Macam Baru",
+    "headingAccent": "Aircond Sejuk Macam Baru",
+    "beforeLabel": "Sebelum",
+    "afterLabel": "Selepas",
+    "items": [
+      {
+        "title": "Chemical Wash Wall Mounted 1.5HP",
+        "location": "Puchong, Selangor",
+        "before": "Coil hitam dan tersumbat habuk empat tahun. Angin lemah, bilik tak sejuk.",
+        "after": "Coil bersih semula, angin kuat dan bilik sejuk dalam sepuluh minit.",
+        "alt": "Perbandingan coil aircond Acson sebelum dan selepas chemical wash"
+      },
+      {
+        "title": "Servis Penuh dan Top-Up Gas 2HP",
+        "location": "Shah Alam, Selangor",
+        "before": "Unit bocor air dan bising. Gas hampir habis, compressor terlalu panas.",
+        "after": "Takde bocor, senyap semula. Gas R32 penuh dan sejuk seperti asal.",
+        "alt": "Technician melakukan servis penuh pada unit luar aircond Acson"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Galeri Kerja",
+    "heading": "Bukti Kerja Kami, Bukan Sekadar Janji",
+    "headingAccent": "Bukan Sekadar Janji",
+    "intro": "Setiap gambar di bawah adalah kerja pemasangan atau servis aircond Acson oleh team kami sendiri.",
+    "ctaLabel": "WhatsApp Untuk Harga",
+    "alts": [
+      "Unit Acson Reino+ 1.5HP siap dipasang di bilik tidur utama",
+      "Technician memasang unit dalaman aircond Acson di kondominium",
+      "Servis unit luar aircond Acson di rumah teres",
+      "Technician menerangkan tetapan aircond kepada pemilik rumah",
+      "Kawalan aircond Acson melalui aplikasi MyAcson pada telefon",
+      "Kemasan piping dan wiring pemasangan aircond Acson"
+    ],
+    "captions": [
+      {
+        "caption": "Pemasangan Reino+ 1.5HP",
+        "location": "Bilik Tidur Utama, Puchong"
+      },
+      {
+        "caption": "Pemasangan Unit Dalaman",
+        "location": "Kondominium, Bangsar South"
+      },
+      {
+        "caption": "Servis Unit Luar",
+        "location": "Rumah Teres, Shah Alam"
+      },
+      {
+        "caption": "Penerangan Kepada Pelanggan",
+        "location": "Selepas Pemasangan, Cyberjaya"
+      },
+      {
+        "caption": "Kawalan WiFi MyAcson",
+        "location": "Integrasi Rumah Pintar"
+      },
+      {
+        "caption": "Kemasan Piping Kemas",
+        "location": "Detail Pemasangan"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team Kami",
+    "heading": "Technician Berpengalaman, Kerja Yang Kemas",
+    "headingAccent": "Kerja Yang Kemas",
+    "body": "Setiap technician kami dilatih khas untuk model Acson — dari wall mounted sampai cassette. Kerja kemas, tepat masa, dan kepuasan anda dijamin.",
+    "imageAlt": "Team technician aircond Acson bergambar di hadapan van servis",
+    "badgeValue": "1,000+",
+    "badgeLabel": "Pemasangan Siap",
+    "ctaLabel": "WhatsApp Untuk Temujanji",
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Technician Berpengalaman"
+      },
+      {
+        "value": "10+",
+        "label": "Tahun Pengalaman"
+      },
+      {
+        "value": "1–3",
+        "label": "Hari Siap Pasang"
+      },
+      {
+        "value": "100%",
+        "label": "Jaminan Kerja"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Testimoni",
+    "heading": "Dipercayai Pelanggan Di Seluruh Malaysia",
+    "headingAccent": "Di Seluruh Malaysia",
+    "ratingLabel": "4.9 daripada 5 pada Google",
+    "items": [
+      {
+        "name": "Ahmad R.",
+        "initials": "AR",
+        "role": "Pemilik Rumah, Puchong",
+        "quote": "WhatsApp tanya harga Reino+ 1.5HP, petang tu dah confirm. Esoknya technician datang pasang. Laju, sejuk, harga berpatutan."
+      },
+      {
+        "name": "Faizal M.",
+        "initials": "FM",
+        "role": "Tuan Rumah Sewa, Shah Alam",
+        "quote": "Saya sewa beli Viento 2HP untuk rumah sewa, RM189 sebulan sahaja. Tak payah keluar modal besar. Penyewa puas hati."
+      },
+      {
+        "name": "Siti A.",
+        "initials": "SA",
+        "role": "Suri Rumah, Ampang",
+        "quote": "Dulu bil elektrik RM400 sebulan. Tukar ke Acson inverter Reino+, turun jadi RM240. Penarafan 5 bintang tu memang berkesan."
+      },
+      {
+        "name": "Jason T.",
+        "initials": "JT",
+        "role": "Pemilik Kondominium, KLCC",
+        "quote": "Aircond empat tahun tak servis. Lepas chemical wash, sejuk macam unit baru. Kerja kemas dan tak berselerak."
+      },
+      {
+        "name": "Nurul H.",
+        "initials": "NH",
+        "role": "Pemilik Apartmen, Cyberjaya",
+        "quote": "Saya compare lima kedai. Ini yang paling transparent — takde caj tersembunyi, siap ada pilihan sewa beli."
+      },
+      {
+        "name": "Kevin L.",
+        "initials": "KL",
+        "role": "Pemilik Perniagaan, Petaling Jaya",
+        "quote": "Pasang tiga unit Avory Premium untuk pejabat baru. Design sleek, senyap, dan semuanya siap dalam satu hari."
+      }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "Kawasan Liputan",
+    "heading": "Kami Pasang dan Servis Aircond Acson Di Seluruh Malaysia",
+    "headingAccent": "Di Seluruh Malaysia",
+    "townsLabel": "{count} kawasan",
+    "viewAll": "Lihat Semua Kawasan",
+    "note": "Kawasan anda tiada dalam senarai? WhatsApp kami dan kami semak liputan untuk anda.",
+    "indexTitle": "Semua Kawasan Liputan Aircond Acson",
+    "indexSubtitle": "Pilih bandar anda untuk harga pemasangan, servis dan sewa beli setempat."
+  },
+  "faq": {
+    "eyebrow": "Soalan Lazim",
+    "heading": "Soalan Yang Selalu Ditanya Tentang Aircond Acson",
+    "headingAccent": "Tentang Aircond Acson",
+    "items": [
+      {
+        "q": "Berapa harga pasang aircond Acson?",
+        "a": "AVO non-inverter bermula RM1,240 untuk 1.0HP, Viento inverter dari RM1,360, Reino+ dari RM1,695 dan Avory Premium dari RM2,130. Harga itu sudah termasuk bracket, piping sepuluh kaki dan wiring standard. Kalau piping perlu lebih panjang, kami beritahu kos tambahan sebelum kerja bermula."
+      },
+      {
+        "q": "Macam mana sewa beli aircond Acson berfungsi?",
+        "a": "Anda pilih model, kami pasang unit baru. Bayaran bulanan bermula RM69 untuk tempoh 36 bulan atau RM99 untuk 24 bulan. Deposit antara RM200 hingga RM300 bergantung pada kuasa kuda. Selepas bayaran terakhir, unit itu 100% jadi milik anda."
+      },
+      {
+        "q": "Apa yang termasuk dalam pakej sewa beli?",
+        "a": "Termasuk unit Acson baru, pemasangan profesional dan warranty satu tahun. Anda juga boleh tambah pelan penyelenggaraan pada RM49 sebulan — kami datang servis setiap tiga bulan."
+      },
+      {
+        "q": "Kawasan mana yang anda liputi?",
+        "a": "Kami melayan lebih 150 bandar dan pekan merentasi 13 negeri, dari Kuala Lumpur dan Selangor hingga Johor, Pulau Pinang, Sabah dan Sarawak. Setiap kawasan ada halaman sendiri di laman ini. Kalau tempat anda tiada dalam senarai, WhatsApp kami dan kami semak."
+      },
+      {
+        "q": "Berapa lama proses pemasangan?",
+        "a": "Technician biasanya sampai satu hingga tiga hari selepas anda sahkan tempahan. Kerja pemasangan itu sendiri mengambil masa dua hingga empat jam bergantung pada susun atur rumah. Anda pilih slot masa yang sesuai semasa tempahan."
+      },
+      {
+        "q": "Kenapa pilih Acson berbanding jenama lain?",
+        "a": "Acson adalah jenama aircond Malaysia yang dimiliki Daikin Industries dari Jepun — gabungan kejuruteraan Jepun dengan harga tempatan. Model Reino+ memegang penarafan tenaga lima bintang daripada Suruhanjaya Tenaga dan menjimatkan sehingga 48% elektrik. Semua model menggunakan gas R32 yang mesra alam."
+      },
+      {
+        "q": "Kalau unit rosak dalam tempoh sewa beli?",
+        "a": "Dalam tempoh warranty, kami baiki atau ganti tanpa caj. Selepas warranty tamat, WhatsApp kami untuk servis — pelanggan sewa beli dapat harga istimewa."
+      },
+      {
+        "q": "Berapa kerap aircond perlu diservis?",
+        "a": "Untuk kegunaan rumah, servis biasa setiap tiga hingga empat bulan dan chemical wash sekali setahun sudah memadai. Kalau aircond hidup sepanjang hari atau rumah anda dekat dengan jalan berdebu, pendekkan jarak itu kepada setiap dua bulan."
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Aircond Sejuk, Hati Senang. WhatsApp Kami Sekarang.",
+    "body": "Lebih 1,000 pemasangan siap, harga transparent dan technician sampai dalam satu hingga tiga hari. Atau mulakan sewa beli dari RM69 sebulan.",
+    "ctaLabel": "WhatsApp Untuk Harga",
+    "bgAlt": "Keluarga Malaysia berehat di ruang tamu yang disejukkan aircond Acson"
+  },
+  "footer": {
+    "tagline": "Pakar pasang, servis dan sewa beli aircond Acson. Jenama Malaysia, kejuruteraan Jepun.",
+    "faqLabel": "Soalan Lazim",
+    "copyright": "© 2026 Acson AirCond Malaysia. Hak cipta terpelihara."
+  },
+  "blog": {
+    "title": "Blog Aircond Acson",
+    "subtitle": "Panduan harga, servis dan penjimatan elektrik untuk pemilik aircond di Malaysia.",
+    "breadcrumbHome": "Utama",
+    "breadcrumbBlog": "Blog",
+    "readMore": "Baca Lagi",
+    "noPosts": "Belum ada artikel diterbitkan.",
+    "publishedOn": "Diterbitkan",
+    "minRead": "minit bacaan",
+    "recentPosts": "Artikel Terkini",
+    "ctaBannerTitle": "Nak harga untuk rumah anda?",
+    "ctaBannerBody": "Hantar saiz bilik anda melalui WhatsApp dan kami balas dengan harga pemasangan dalam masa sejam.",
+    "ctaBannerLabel": "WhatsApp Kami"
+  },
+  "location": {
+    "eyebrow": "Aircond Acson {location}",
+    "title": "Pasang Aircond Acson Di {location} Dari RM99 Sebulan",
+    "subtitle": "Technician kami melayan {location} dan sekitar {state} — pemasangan, servis dan sewa beli dengan harga yang sama telus.",
+    "intro": "Kami sudah menyiapkan ratusan pemasangan aircond Acson di sekitar {location}. Technician berpangkalan di {state}, jadi tempahan yang disahkan hari ini biasanya dipasang dalam satu hingga tiga hari bekerja. Harga yang anda lihat di sini adalah harga yang anda bayar di {location} — tiada caj perjalanan tersembunyi.",
+    "bgAlt": "Kawasan perumahan di {location} yang dilayan oleh team aircond Acson kami",
+    "breadcrumbCoverage": "Kawasan",
+    "nearbyHeading": "Kawasan Berdekatan Di {state}",
+    "faqHeading": "Soalan Lazim Untuk {location}",
+    "faq": [
+      {
+        "q": "Berapa lama untuk sampai ke {location}?",
+        "a": "Untuk {location}, technician kami biasanya boleh sampai dalam satu hingga tiga hari bekerja selepas anda sahkan tempahan melalui WhatsApp."
+      },
+      {
+        "q": "Ada caj perjalanan untuk {location}?",
+        "a": "Tidak. {location} berada dalam kawasan liputan biasa kami, jadi harga pemasangan dan servis sama seperti yang disenaraikan di halaman utama."
+      },
+      {
+        "q": "Boleh sewa beli di {location}?",
+        "a": "Boleh. Pelan sewa beli dari RM69 sebulan tersedia untuk semua pelanggan di {location}, termasuk unit baru, pemasangan dan warranty satu tahun."
+      }
+    ],
+    "ctaHeading": "Sedia Pasang Aircond Acson Di {location}?",
+    "ctaLabel": "WhatsApp Kami"
+  },
+  "redirect": {
+    "heading": "Menyambungkan anda ke WhatsApp",
+    "subtext": "Tunggu sekejap — kami sedang buka sembang dengan team Acson AirCond Malaysia.",
+    "fallback": "Tak terbuka? Tekan di sini"
+  },
+  "meta": {
+    "home": {
+      "title": "Pasang & Servis Aircond Acson Malaysia | Sewa Beli Dari RM99 Sebulan",
+      "description": "Pemasang sah aircond Acson di Malaysia. Harga pemasangan termasuk bracket dan piping, chemical wash dari RM130, sewa beli dari RM99 sebulan. WhatsApp untuk harga."
+    },
+    "blogListing": {
+      "title": "Blog Aircond Acson | Panduan Harga, Servis & Penjimatan Elektrik",
+      "description": "Panduan lengkap untuk pemilik aircond di Malaysia — harga model Acson, kos servis, chemical wash dan cara jimat bil elektrik."
+    },
+    "coverage": {
+      "title": "Kawasan Liputan Aircond Acson | 155 Bandar Di Seluruh Malaysia",
+      "description": "Senarai penuh bandar dan pekan yang kami liputi untuk pemasangan, servis dan sewa beli aircond Acson di 13 negeri."
+    },
+    "location": {
+      "title": "Pasang & Servis Aircond Acson {location} | Sewa Beli Dari RM99",
+      "description": "Pemasangan dan servis aircond Acson di {location}, {state}. Harga termasuk bracket dan piping, chemical wash dari RM130, sewa beli dari RM99 sebulan."
+    }
+  },
+  "contact": {
+    "availability": "Hubungi kami · 9 pagi – 9 malam"
+  }
+}

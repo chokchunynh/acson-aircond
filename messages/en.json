@@ -1,0 +1,547 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Acson Models",
+    "services": "Services",
+    "calculator": "Rent-to-Own Pricing",
+    "locations": "Coverage",
+    "blog": "Blog",
+    "whatsappCta": "WhatsApp Us",
+    "logoAlt": "Acson AirCond Malaysia logo",
+    "menuLabel": "Menu"
+  },
+  "fomo": {
+    "eyebrow": "{monthUpper} PROMO",
+    "body": "Acson rent-to-own from RM69/month — {month} offer ends in",
+    "ctaLabel": "Claim Slot"
+  },
+  "usp": {
+    "items": [
+      {
+        "title": "Price Includes Install",
+        "body": "Bracket, 10ft of piping and standard wiring are already in the price — no hidden charges."
+      },
+      {
+        "title": "Installed In 1–3 Days",
+        "body": "Confirm today and a technician is at your door within three working days."
+      },
+      {
+        "title": "5-Year Warranty",
+        "body": "Acson backs the compressor for five years; we back our installation for 60 days."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Authorised Acson Air-Conditioner Installer",
+    "title": "Install An Acson Air-Conditioner From RM99 A Month",
+    "titleAccent": "From RM99 A Month",
+    "subtitle": "Reino+, Avory Premium and Viento all in stock — transparent pricing, experienced technicians, workmanship guaranteed.",
+    "ctaPrimary": "WhatsApp For Quote",
+    "ctaSecondary": "See Acson Models",
+    "bgAlt": "Technician mounting an Acson air-conditioner unit in a modern Malaysian home",
+    "chips": [
+      "Installation",
+      "Servicing",
+      "Rent-To-Own"
+    ],
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "Installations Completed"
+      },
+      {
+        "value": "4.9/5",
+        "label": "Google Rating"
+      },
+      {
+        "value": "40+",
+        "label": "Years Of Acson"
+      },
+      {
+        "value": "13",
+        "label": "States Covered"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Recognised and registered with",
+    "logos": [
+      {
+        "name": "Acson",
+        "alt": "Acson International brand logo"
+      },
+      {
+        "name": "Malaysia Good Design",
+        "alt": "Malaysia Good Design award for Acson air-conditioners"
+      },
+      {
+        "name": "SIRIM",
+        "alt": "SIRIM Malaysia certification mark"
+      },
+      {
+        "name": "SSM",
+        "alt": "Companies Commission of Malaysia registration"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Acson Models",
+    "heading": "Pick The Acson Air-Conditioner That Fits Your Room",
+    "headingAccent": "That Fits Your Room",
+    "intro": "Buying, servicing or renting to own? Switch the mode below — pricing and scope change with your choice.",
+    "modeBeli": "Buy & Install",
+    "modeServis": "Service & Repair",
+    "modeSewa": "Rent-To-Own",
+    "imageAltTemplate": "Acson {model} air-conditioner unit installed in a Malaysian home",
+    "priceFrom": "From RM {price}",
+    "priceLabelBeli": "Unit + Installation",
+    "priceLabelSewa": "Monthly Rent-To-Own",
+    "ctaBeli": "WhatsApp For Quote",
+    "ctaServis": "WhatsApp To Book",
+    "ctaSewa": "WhatsApp Rent-To-Own",
+    "empty": "The model catalogue is being updated. WhatsApp us for the current stock list.",
+    "guarantees": [
+      "5-Year Compressor Warranty",
+      "60-Day Workmanship Guarantee",
+      "Reply Within 1 Hour",
+      "After-Installation Support"
+    ]
+  },
+  "process": {
+    "eyebrow": "How Rent-To-Own Works",
+    "heading": "Rent-To-Own An Acson Air-Conditioner In 3 Steps",
+    "headingAccent": "In 3 Steps",
+    "steps": [
+      {
+        "title": "WhatsApp Us Your Details",
+        "body": "Tell us your room size and budget. We will recommend the Acson model that fits best.",
+        "alt": "Technician explaining Acson model options to a homeowner"
+      },
+      {
+        "title": "We Install",
+        "body": "A technician arrives 1–3 days after you confirm. Installation takes 2–4 hours.",
+        "alt": "Technician fitting the Acson indoor unit onto the wall"
+      },
+      {
+        "title": "Pay Monthly",
+        "body": "From RM69 a month. When the term ends the unit is 100% yours.",
+        "alt": "Family relaxing in a living room cooled by an Acson air-conditioner"
+      }
+    ],
+    "ctaLabel": "WhatsApp Us Now",
+    "ctaNote": "Step one takes a minute — send us your room size and we will reply with a price."
+  },
+  "rto": {
+    "eyebrow": "Rent-To-Own vs Cash",
+    "heading": "No Need To Pay Upfront. Rent-To-Own From RM69 A Month.",
+    "headingAccent": "Rent-To-Own From RM69 A Month.",
+    "sewaTitle": "Rent-To-Own",
+    "beliTitle": "Buy Outright (Cash)",
+    "sewaPoints": [
+      "No upfront payment — from RM69 a month",
+      "Brand-new unit and free installation",
+      "One-year warranty included",
+      "Once paid off, the unit is yours",
+      "Low deposit — from RM200 only",
+      "No bank loan or credit card needed"
+    ],
+    "beliPoints": [
+      {
+        "text": "Brand-new unit and installation",
+        "good": true
+      },
+      {
+        "text": "Standard Acson warranty",
+        "good": true
+      },
+      {
+        "text": "Yours from day one",
+        "good": true
+      },
+      {
+        "text": "A large one-off payment",
+        "good": false
+      },
+      {
+        "text": "Hard on a tight budget",
+        "good": false
+      },
+      {
+        "text": "Maintenance plan charged separately",
+        "good": false
+      }
+    ],
+    "tableHeading": "Rent-To-Own Pricing By Horsepower",
+    "months24": "24 months",
+    "months36": "36 months",
+    "depositLabel": "Deposit {amount}",
+    "ctaLabel": "WhatsApp Rent-To-Own",
+    "plans": [
+      {
+        "hp": "1.0 HP",
+        "m24": "RM99/mo",
+        "m36": "RM69/mo",
+        "deposit": "RM200"
+      },
+      {
+        "hp": "1.5 HP",
+        "m24": "RM129/mo",
+        "m36": "RM89/mo",
+        "deposit": "RM200"
+      },
+      {
+        "hp": "2.0 HP",
+        "m24": "RM189/mo",
+        "m36": "RM139/mo",
+        "deposit": "RM300"
+      },
+      {
+        "hp": "2.5 HP",
+        "m24": "RM219/mo",
+        "m36": "RM159/mo",
+        "deposit": "RM300"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "heading": "Install, Service And Rent-To-Own For Your Acson Air-Conditioner",
+    "headingAccent": "For Your Acson Air-Conditioner",
+    "items": [
+      {
+        "name": "Acson Air-Conditioner Installation",
+        "description": "A brand-new Acson unit with professional installation. Every type is available — wall mounted, cassette and ceiling. Bracket, piping and standard wiring are included in the price.",
+        "price": "From RM1,560 including installation",
+        "alt": "Technician installing a wall-mounted Acson air-conditioner"
+      },
+      {
+        "name": "Acson Air-Conditioner Servicing",
+        "description": "Routine servicing, chemical wash, gas top-up and repairs. Your unit cools properly again, the electricity bill drops, and the compressor lasts longer. We know every Acson model.",
+        "price": "Servicing from RM80, chemical wash from RM130",
+        "alt": "Technician performing a chemical wash on an Acson evaporator coil"
+      },
+      {
+        "name": "Acson Rent-To-Own",
+        "description": "No upfront payment. Rent to own a new Acson from RM99 a month — unit, installation and a one-year warranty included. Once it is paid off the unit is yours.",
+        "price": "From RM99 a month over 24 months",
+        "alt": "Family enjoying the cool air from an Acson unit in the living room"
+      }
+    ],
+    "ctaLabel": "WhatsApp Us Now"
+  },
+  "why": {
+    "eyebrow": "Why Acson",
+    "heading": "Malaysian Brand, Japanese Engineering — Why Choose Acson",
+    "headingAccent": "Why Choose Acson",
+    "bgAlt": "Cool airflow from an Acson inverter air-conditioner",
+    "acsonLabel": "Acson",
+    "genericLabel": "Typical brand",
+    "rows": [
+      {
+        "feature": "Electricity saving",
+        "acson": "Up to 48% saved",
+        "generic": "Standard"
+      },
+      {
+        "feature": "Energy rating",
+        "acson": "5 stars on the Reino+",
+        "generic": "3 to 4 stars"
+      },
+      {
+        "feature": "Compressor lifespan",
+        "acson": "8 to 10 years",
+        "generic": "3 to 5 years"
+      },
+      {
+        "feature": "Compressor warranty",
+        "acson": "5 years",
+        "generic": "1 to 2 years"
+      },
+      {
+        "feature": "WiFi control",
+        "acson": "MyAcson app included",
+        "generic": "Rarely offered"
+      },
+      {
+        "feature": "Self-clean technology",
+        "acson": "Patented iClean+",
+        "generic": "Not available"
+      },
+      {
+        "feature": "R32 refrigerant",
+        "acson": "Every model",
+        "generic": "Model dependent"
+      }
+    ],
+    "points": [
+      "Acson inverters cut up to 48% off the electricity bill",
+      "The Reino+ carries a 5-star Energy Commission rating",
+      "Five-year compressor warranty, three years on parts",
+      "Smart control through the MyAcson app",
+      "iClean+ technology cleans the coil automatically",
+      "Every model runs on eco-friendly R32 refrigerant"
+    ]
+  },
+  "results": {
+    "eyebrow": "Real Results",
+    "heading": "See What Our Servicing Does — Cooling Like New Again",
+    "headingAccent": "Cooling Like New Again",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "items": [
+      {
+        "title": "Chemical Wash, 1.5HP Wall Mounted",
+        "location": "Puchong, Selangor",
+        "before": "Coil black and choked with four years of dust. Weak airflow, room never got cold.",
+        "after": "Coil clean again, strong airflow and the room cools within ten minutes.",
+        "alt": "Acson evaporator coil before and after a chemical wash"
+      },
+      {
+        "title": "Full Service And Gas Top-Up, 2HP",
+        "location": "Shah Alam, Selangor",
+        "before": "The unit leaked water and ran loud. Gas nearly empty, compressor overheating.",
+        "after": "No leaks, quiet again. R32 topped up and cooling back to original spec.",
+        "alt": "Technician carrying out a full service on an Acson outdoor unit"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Work Gallery",
+    "heading": "Proof Of Our Work, Not Just Promises",
+    "headingAccent": "Not Just Promises",
+    "intro": "Every photo below is an Acson installation or service carried out by our own team.",
+    "ctaLabel": "WhatsApp For Quote",
+    "alts": [
+      "Acson Reino+ 1.5HP freshly installed in a master bedroom",
+      "Technician mounting an Acson indoor unit in a condominium",
+      "Servicing an Acson outdoor unit at a terrace house",
+      "Technician explaining the settings to a homeowner",
+      "Controlling an Acson unit through the MyAcson phone app",
+      "Neat piping and wiring on an Acson installation"
+    ],
+    "captions": [
+      {
+        "caption": "Reino+ 1.5HP Installation",
+        "location": "Master Bedroom, Puchong"
+      },
+      {
+        "caption": "Indoor Unit Fitting",
+        "location": "Condominium, Bangsar South"
+      },
+      {
+        "caption": "Outdoor Unit Service",
+        "location": "Terrace House, Shah Alam"
+      },
+      {
+        "caption": "Walkthrough With The Customer",
+        "location": "After Installation, Cyberjaya"
+      },
+      {
+        "caption": "MyAcson WiFi Control",
+        "location": "Smart Home Integration"
+      },
+      {
+        "caption": "Neat Piping Finish",
+        "location": "Installation Detail"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Our Team",
+    "heading": "Experienced Technicians, Tidy Workmanship",
+    "headingAccent": "Tidy Workmanship",
+    "body": "Every technician on our team is trained specifically on Acson models — from wall mounted to cassette. Tidy work, on time, and your satisfaction guaranteed.",
+    "imageAlt": "The Acson air-conditioner technician team in front of a service van",
+    "badgeValue": "1,000+",
+    "badgeLabel": "Installations Completed",
+    "ctaLabel": "WhatsApp To Book",
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Experienced Technicians"
+      },
+      {
+        "value": "10+",
+        "label": "Years In The Trade"
+      },
+      {
+        "value": "1–3",
+        "label": "Days To Installation"
+      },
+      {
+        "value": "100%",
+        "label": "Workmanship Guarantee"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "heading": "Trusted By Customers Across Malaysia",
+    "headingAccent": "Across Malaysia",
+    "ratingLabel": "4.9 out of 5 on Google",
+    "items": [
+      {
+        "name": "Ahmad R.",
+        "initials": "AR",
+        "role": "Homeowner, Puchong",
+        "quote": "I asked about the Reino+ 1.5HP on WhatsApp and it was confirmed that afternoon. The technician came the next day. Fast, cold, fairly priced."
+      },
+      {
+        "name": "Faizal M.",
+        "initials": "FM",
+        "role": "Landlord, Shah Alam",
+        "quote": "I rented to own a Viento 2HP for my rental property at just RM189 a month. No big outlay. My tenant is happy."
+      },
+      {
+        "name": "Siti A.",
+        "initials": "SA",
+        "role": "Homemaker, Ampang",
+        "quote": "My bill used to be RM400 a month. After switching to the Acson Reino+ inverter it dropped to RM240. That 5-star rating is real."
+      },
+      {
+        "name": "Jason T.",
+        "initials": "JT",
+        "role": "Condo Owner, KLCC",
+        "quote": "Four years without a service. After the chemical wash it cools like a new unit. Tidy work, no mess left behind."
+      },
+      {
+        "name": "Nurul H.",
+        "initials": "NH",
+        "role": "Apartment Owner, Cyberjaya",
+        "quote": "I compared five shops. This one was the most transparent — no hidden charges, and a rent-to-own option too."
+      },
+      {
+        "name": "Kevin L.",
+        "initials": "KL",
+        "role": "Business Owner, Petaling Jaya",
+        "quote": "Three Avory Premium units for our new office. Sleek, quiet, and all done in a single day."
+      }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "Coverage Area",
+    "heading": "We Install And Service Acson Air-Conditioners Across Malaysia",
+    "headingAccent": "Across Malaysia",
+    "townsLabel": "{count} areas",
+    "viewAll": "See All Areas",
+    "note": "Your area is not on the list? WhatsApp us and we will check coverage for you.",
+    "indexTitle": "Every Acson Air-Conditioner Coverage Area",
+    "indexSubtitle": "Pick your town for local installation, servicing and rent-to-own pricing."
+  },
+  "faq": {
+    "eyebrow": "Common Questions",
+    "heading": "Questions We Get Asked About Acson Air-Conditioners",
+    "headingAccent": "About Acson Air-Conditioners",
+    "items": [
+      {
+        "q": "How much does it cost to install an Acson air-conditioner?",
+        "a": "The AVO non-inverter starts at RM1,240 for 1.0HP, the Viento inverter from RM1,360, the Reino+ from RM1,695 and the Avory Premium from RM2,130. That price already covers the bracket, ten feet of piping and standard wiring. If longer piping is needed we tell you the extra cost before work starts."
+      },
+      {
+        "q": "How does Acson rent-to-own work?",
+        "a": "You choose a model and we install a brand-new unit. Monthly payments start at RM69 over 36 months or RM99 over 24 months. The deposit is between RM200 and RM300 depending on horsepower. After the final payment the unit is 100% yours."
+      },
+      {
+        "q": "What is included in the rent-to-own package?",
+        "a": "It covers a brand-new Acson unit, professional installation and a one-year warranty. You can add a maintenance plan at RM49 a month, which brings us out to service the unit every three months."
+      },
+      {
+        "q": "Which areas do you cover?",
+        "a": "We serve more than 150 towns across 13 states, from Kuala Lumpur and Selangor through to Johor, Penang, Sabah and Sarawak. Every area has its own page on this site. If yours is not listed, WhatsApp us and we will check."
+      },
+      {
+        "q": "How long does installation take?",
+        "a": "A technician usually arrives one to three days after you confirm. The installation itself takes two to four hours depending on the layout. You pick a time slot that suits you when booking."
+      },
+      {
+        "q": "Why choose Acson over other brands?",
+        "a": "Acson is a Malaysian air-conditioner brand owned by Japan's Daikin Industries — Japanese engineering at local pricing. The Reino+ holds a five-star Energy Commission rating and saves up to 48% on electricity. Every model runs on eco-friendly R32 refrigerant."
+      },
+      {
+        "q": "What if the unit breaks during the rent-to-own term?",
+        "a": "Within the warranty period we repair or replace it at no charge. After the warranty ends, WhatsApp us for a service — rent-to-own customers get preferential pricing."
+      },
+      {
+        "q": "How often should the unit be serviced?",
+        "a": "For home use, a routine service every three to four months plus one chemical wash a year is enough. If the unit runs all day or you live near a dusty road, shorten that to every two months."
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Cool Air, Easy Mind. WhatsApp Us Now.",
+    "body": "Over 1,000 installations completed, transparent pricing, and a technician at your door in one to three days. Or start a rent-to-own plan from RM69 a month.",
+    "ctaLabel": "WhatsApp For Quote",
+    "bgAlt": "A Malaysian family relaxing in a living room cooled by an Acson air-conditioner"
+  },
+  "footer": {
+    "tagline": "Specialists in Acson air-conditioner installation, servicing and rent-to-own. Malaysian brand, Japanese engineering.",
+    "faqLabel": "FAQ",
+    "copyright": "© 2026 Acson AirCond Malaysia. All rights reserved."
+  },
+  "blog": {
+    "title": "Acson Air-Conditioner Blog",
+    "subtitle": "Pricing, servicing and energy-saving guides for air-conditioner owners in Malaysia.",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlog": "Blog",
+    "readMore": "Read More",
+    "noPosts": "No articles published yet.",
+    "publishedOn": "Published",
+    "minRead": "min read",
+    "recentPosts": "Recent Articles",
+    "ctaBannerTitle": "Want a price for your own home?",
+    "ctaBannerBody": "Send us your room size on WhatsApp and we will reply with an installation price within the hour.",
+    "ctaBannerLabel": "WhatsApp Us Now"
+  },
+  "location": {
+    "eyebrow": "Acson Air-Conditioners In {location}",
+    "title": "Install An Acson Air-Conditioner In {location} From RM99 A Month",
+    "subtitle": "Our technicians cover {location} and the rest of {state} — installation, servicing and rent-to-own at the same transparent pricing.",
+    "intro": "We have completed hundreds of Acson installations around {location}. Our technicians are based in {state}, so a booking confirmed today is usually installed within one to three working days. The price you see here is the price you pay in {location} — no hidden travel charges.",
+    "bgAlt": "A residential area in {location} served by our Acson air-conditioner team",
+    "breadcrumbCoverage": "Coverage",
+    "nearbyHeading": "Nearby Areas In {state}",
+    "faqHeading": "Common Questions For {location}",
+    "faq": [
+      {
+        "q": "How soon can you reach {location}?",
+        "a": "For {location}, our technician can usually be with you within one to three working days once you confirm the booking on WhatsApp."
+      },
+      {
+        "q": "Is there a travel charge for {location}?",
+        "a": "No. {location} sits inside our standard coverage area, so installation and service pricing matches what is listed on the main page."
+      },
+      {
+        "q": "Is rent-to-own available in {location}?",
+        "a": "Yes. Rent-to-own from RM69 a month is available to every customer in {location}, covering the new unit, installation and a one-year warranty."
+      }
+    ],
+    "ctaHeading": "Ready To Install An Acson Air-Conditioner In {location}?",
+    "ctaLabel": "WhatsApp Us Now"
+  },
+  "redirect": {
+    "heading": "Connecting you to WhatsApp",
+    "subtext": "One moment — we are opening a chat with the Acson AirCond Malaysia team.",
+    "fallback": "Not opening? Tap here"
+  },
+  "meta": {
+    "home": {
+      "title": "Acson Air-Conditioner Installation & Service Malaysia | Rent-To-Own From RM99",
+      "description": "Authorised Acson air-conditioner installer in Malaysia. Installation pricing includes bracket and piping, chemical wash from RM130, rent-to-own from RM99 a month. WhatsApp for a quote."
+    },
+    "blogListing": {
+      "title": "Acson Air-Conditioner Blog | Pricing, Service & Energy-Saving Guides",
+      "description": "Complete guides for air-conditioner owners in Malaysia — Acson model pricing, service costs, chemical washing and how to cut the electricity bill."
+    },
+    "coverage": {
+      "title": "Acson Air-Conditioner Coverage | 155 Towns Across Malaysia",
+      "description": "The full list of towns we cover for Acson air-conditioner installation, servicing and rent-to-own across 13 states."
+    },
+    "location": {
+      "title": "Acson Air-Conditioner Installation & Service In {location} | Rent-To-Own From RM99",
+      "description": "Acson air-conditioner installation and servicing in {location}, {state}. Pricing includes bracket and piping, chemical wash from RM130, rent-to-own from RM99 a month."
+    }
+  },
+  "contact": {
+    "availability": "Call us · 9am – 9pm daily"
+  }
+}
